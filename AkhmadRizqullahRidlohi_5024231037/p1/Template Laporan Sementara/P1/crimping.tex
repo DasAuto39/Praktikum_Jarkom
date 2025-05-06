@@ -1,0 +1,111 @@
+\section{Pendahuluan}
+
+\subsection{Latar Belakang}
+Praktikum ini dilakukan agar para praktikan mengetahui dasar-dasar jaringan seperti topologi jaringan dan cara crimping kabel agar bisa digunakan untuk menghubungkan ke port. Pada praktikum ini juga dilakukan routing statis dan dinamis pada IPv4.
+
+\subsection{Dasar Teori}
+Dalam jaringan komputer terdapat topologi yang perlu dipahami. Jaringan komputer terdiri dari pengirim, penerima, kabel jaringan, router, dan data yang akan dikirim. Router berperan sebagai pemberi arah pada data yang dikirim agar sampai ke tujuan dengan benar. Terdapat beberapa jenis area network yang umum digunakan, seperti:
+
+\begin{enumerate}
+    \item \textbf{WAN (Wide Area Network)}
+    \item \textbf{LAN (Local Area Network)}
+    \item \textbf{PAN (Personal Area Network)}
+\end{enumerate}
+
+\textbf{Wide Area Network (WAN)} adalah jaringan komputer yang mempunyai jangkauan luas, bisa sampai 50 kilometer. WAN biasanya menghubungkan jaringan kecil seperti LAN, lalu melewati jalur komunikasi bersama seperti \textit{leased line}, \textit{dial-up}, dan VPN. WAN umum digunakan untuk internet sehari-hari, menghubungkan lokasi dengan jarak yang jauh.
+
+\textbf{Local Area Network (LAN)} adalah jaringan yang biasa dipakai untuk menghubungkan perangkat dengan jarak kurang dari 2 kilometer, seperti pada kelas sekolah atau laboratorium.
+
+\textbf{Personal Area Network (PAN)} adalah jaringan yang menghubungkan perangkat pribadi dengan jarak maksimal 100 meter.
+
+Dalam jaringan komputer juga terdapat istilah protokol, yaitu aturan yang mengatur bagaimana perangkat dapat berkomunikasi satu sama lain. Beberapa protokol yang umum digunakan antara lain:
+
+\begin{enumerate}
+    \item \textbf{HTTP}
+    \item \textbf{HTTPS}
+    \item \textbf{FTP}
+    \item \textbf{TCP}
+    \item \textbf{IP}
+\end{enumerate}
+
+\textbf{HTTP (HyperText Transfer Protocol)} adalah protokol standar yang digunakan untuk mengakses website pada internet. HTTP berisi aturan yang mengatur bagaimana data seperti halaman web dan gambar dipertukarkan antara browser dan server web.
+
+\textbf{HTTPS (HyperText Transfer Protocol Secure)} sama seperti HTTP, namun pada protokol ini ditambahkan lapisan keamanan. Data yang dikirim akan dienkripsi terlebih dahulu, sehingga tidak dapat dengan mudah diakses oleh pihak yang tidak berwenang.
+
+\textbf{FTP (File Transfer Protocol)} adalah protokol standar yang digunakan untuk mengirim dan menerima file antar komputer melalui jaringan. FTP menggunakan metode \textit{client-server} dan memiliki dua mode koneksi:
+\begin{enumerate}
+    \item \textbf{Active Mode}: Klien terhubung ke server melalui port 21, lalu server membuka port lain untuk mengirim data.
+    \item \textbf{Passive Mode}: Klien berada di dalam \textit{firewall} atau NAT, dan server membuka port secara acak yang kemudian diakses oleh klien.
+\end{enumerate}
+
+\textbf{TCP (Transmission Control Protocol)} adalah protokol yang menjamin data yang dikirim dapat diterima dengan baik dan benar tanpa kerusakan.
+
+\textbf{IP (Internet Protocol)} adalah tulang punggung dari internet. IP berfungsi seperti GPS yang menentukan ke mana paket data dikirim. IP memecah paket data terlebih dahulu, memberi alamat asal dan tujuan pada setiap paket, kemudian router dan switch akan meneruskan paket ke jalur yang benar.
+
+\textbf{DHCP (Dynamic Host Configuration Protocol)} adalah protokol yang memberikan alamat IP secara otomatis kepada perangkat yang terhubung ke jaringan. Alamat IP tersebut dapat digunakan kembali oleh perangkat lain ketika perangkat sebelumnya telah keluar dari jaringan.
+
+
+IP address adalah alamat identitas unik yang dimiliki setiap perangkat yang terhubung ke jaringan.IP address 
+ibaratnya adalah bahasa komunikasi universal bagi jaringan seperti bahasa inggris pada bahasa manusia.
+Terdapat jenis IP address yang umum digunakan 
+\begin{enumerate}
+	\item Private IP
+	\item Public IP
+\end{enumerate}
+
+\textbf{Private IP Address} adalah IP address yang digunakan pada suatu local network. Private IP address
+tidak akan terlihat pada dunia luar dari suatu local network, sehingga private IP address tidak dapat
+langsung diakses oleh public IP address
+\textbf{Public IP Address} adalah IP address yang digunakan untuk berkomunikasi pada dunia luar,public 
+IP address dapat kelihatan pada internet dan biasanya yang mengasih IP address ini adalah ISP yang sedang
+digunakan.
+
+Pada internet juga terdapat \textbf{IP address dinamis} ,dan \textbf{IP address statis}. IP address dinamis adalah IP yang 
+dapat berubah ubah, contoh dengan analogi adalah,kamu ngekos dan setiap bulan nomor kamarmu berubah, namun
+masih pada kos yang sama, nah nomor kamar yang berubah setiap bulan itulah yang dimaksud IP dinamis dimana 
+IP mu dapat berubah setiap sesi internet. IP address statis adalah IP yang beralamatkan tetap(tidak berubah-ubah).
+IP ini cocok untuk perangkat yang membutuhkan akses dari luar secara konsisten.
+
+IP juga terdapat versi versinya. Pada praktikum kali ini versi yang digunakan adalah IPv4.IPv4 memiliki
+struktur 4 blok angka. Contoh : 192.168.0.10
+
+Struktur dari alamat IPv4 mencakup tiga bagian utama, yaitu Network Part, Host Part, 
+dan Subnet Part (opsional). Berdasarkan struktur ini, alamat IPv4 kemudian dibagi menjadi beberapa 
+kelas: Class A untuk jaringan besar (hingga 16 juta host), Class B untuk jaringan menengah 
+(sekitar 65 ribu host), dan Class C untuk jaringan kecil (hingga 254 host). Class D digunakan 
+untuk multicast (pengiriman data ke banyak perangkat secara bersamaan), sedangkan Class E 
+disediakan untuk riset dan eksperimental. Tiap kelas juga memiliki rentang IP private 
+yang biasanya digunakan untuk jaringan internal.
+
+Untuk membedakan antara bagian jaringan dan bagian host dari sebuah IP, digunakan sistem prefix dan 
+subnet mask. Prefix, seperti pada format /24, menunjukkan jumlah bit yang digunakan untuk network ID. 
+Subnet mask sendiri adalah angka biner yang digunakan untuk membagi jaringan besar menjadi subnet 
+kecil, membantu mengatur lalu lintas jaringan dan mengoptimalkan penggunaan alamat IP. 
+Dengan subnetting, pengelolaan jaringan menjadi lebih efisien, terutama dalam jaringan besar yang 
+kompleks.
+
+Dalam jaringan komputer terdapat 2 jenis pemasangan kabel yaitu
+\begin{enumerate}
+	\item Straight-Through
+	\item Crossover
+\end{enumerate}
+
+\textbf{Straight-Through} adalah jenis pengkabelan untuk menyambungkan dua tipe perangkat yang berbeda
+, yaitu perangkat DTE(Data Terminal Equipmemt) ke DCE(Data Circuit terminating Equipmemt) atau sebaliknya.
+Perangkat DTE adalah perangkat yang melakukan generate data digital dan bertindak sebagai source dan destination
+untuk data digital, dan DCE adalah perangkat yang menerima dan mengkonversi data ke link telekomunikasi
+yang sesuai
+
+\textbf{Crossover} adalah jenis pengkabelan untuk menyambungkan dua tipe perangkat yang sama, yaitu DTE ke
+DTE, atau DCE ke DCE.
+
+%===========================================================%
+
+\section{Tugas Pendahuluan}
+Bagian ini berisi jawaban dari tugas pendahuluan yang telah Anda kerjakan, beserta penjelasan dari jawaban tersebut:
+
+\begin{enumerate}
+    \item Jawaban
+    \item Jawaban
+    \item Jawaban
+\end{enumerate}
