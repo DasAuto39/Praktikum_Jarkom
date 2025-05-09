@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  9 MAY 2025 08:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  9 MAY 2025 11:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,17 +865,17 @@ Package logreq Info: Writing requests to 'LS.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21523 strings out of 475832
- 373904 string characters out of 5778116
- 1202398 words of memory out of 5000000
+ 21524 strings out of 475832
+ 373911 string characters out of 5778116
+ 1203398 words of memory out of 5000000
  43865 multiletter control sequences out of 15000+600000
  604084 words of font info for 63 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,12n,81p,1318b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on LS.pdf (5 pages, 168943 bytes).
+Output written on LS.pdf (5 pages, 169065 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
