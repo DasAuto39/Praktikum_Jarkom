@@ -1,6 +1,6 @@
-PWD /home/goated/Documents/Praktikum_jarkom/p1/Template Laporan Sementara
+PWD /home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Sementara
 INPUT /home/goated/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/goated/Documents/Praktikum_jarkom/p1/Template Laporan Sementara/LS.tex
+INPUT /home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Sementara/LS.tex
 OUTPUT LS.log
 INPUT /home/goated/.miktex/texmfs/install/tex/latex/base/article.cls
 INPUT /home/goated/.miktex/texmfs/install/tex/latex/base/article.cls
@@ -228,14 +228,8 @@ INPUT /home/goated/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/goated/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/goated/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /home/goated/.miktex/texmfs/install/tex/latex/graphics/color.sty
-INPUT ./LS.out
-INPUT ./LS.out
-INPUT LS.out
-INPUT LS.out
-OUTPUT LS.pdf
-INPUT ./LS.out
-INPUT ./LS.out
 OUTPUT LS.out
+OUTPUT LS.pdf
 OUTPUT LS.bcf
 INPUT LS.bbl
 INPUT ./LS.bbl
@@ -317,10 +311,10 @@ INPUT ./miot.png
 INPUT ./miot.png
 INPUT ./miot.png
 INPUT ./miot.png
+INPUT /home/goated/.miktex/texmfs/install/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
 INPUT LS.aux
 INPUT ./LS.out
 INPUT ./LS.out
-INPUT LS.run.xml
 OUTPUT LS.run.xml
 INPUT /home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb
 INPUT /home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb

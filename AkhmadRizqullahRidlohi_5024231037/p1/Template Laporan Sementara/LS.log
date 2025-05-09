@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  6 MAY 2025 12:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  9 MAY 2025 08:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/goated/Documents/Praktikum_jarkom/p1/Template Laporan Sementara/LS.tex"
-(/home/goated/Documents/Praktikum_jarkom/p1/Template Laporan Sementara/LS.tex
+**"/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Sementara/LS.tex"
+(/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Sementara/LS.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
 (/home/goated/.miktex/texmfs/install/tex/latex/base/article.cls
@@ -697,7 +697,6 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 88.
- (LS.out) (LS.out)
 \@outlinefile=\write5
 \openout5 = `LS.out'.
 
@@ -761,7 +760,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=22, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=6, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -789,7 +788,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.37     \item \textbf
                       {Active Mode}: Klien terhubung ke server melalui port ...
-<miot.png, id=34, 200.75pt x 200.75pt>
+<miot.png, id=18, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
 Package pdftex.def Info: miot.png  used on input line 37.
@@ -818,9 +817,25 @@ Overfull \hbox (3.29086pt too wide) in paragraph at lines 93--98
 \T1/qhv/m/n/10.95 atau sebaliknya. Perangkat DTE adalah perangkat yang melakukan generate data digital dan bertindak
  []
 
-)
+P1/crimping.tex:108: Misplaced alignment tab character &.
+l.108     \item Departemen R&
+                             D menggunakan prefix /25 dan .2 subnet,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-[3] (LS.aux)
+
+
+[3])
+
+Package transparent Warning: Rerun to get transparencies right.
+
+
+
+[4] (LS.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -829,8 +844,17 @@ L3 programming layer <2024-10-09>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `LS.out' has not changed.
-(rerunfilecheck)             Checksum: F646F2247E20B5F6EF92810BDD37164F;474.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `LS.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `LS.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  F646F2247E20B5F6EF92810BDD37164F;474.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                LS
@@ -841,17 +865,17 @@ Package logreq Info: Writing requests to 'LS.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21519 strings out of 475832
- 373356 string characters out of 5778116
- 1200575 words of memory out of 5000000
- 43860 multiletter control sequences out of 15000+600000
- 601087 words of font info for 62 fonts, out of 8000000 for 9000
+ 21523 strings out of 475832
+ 373904 string characters out of 5778116
+ 1202398 words of memory out of 5000000
+ 43865 multiletter control sequences out of 15000+600000
+ 604084 words of font info for 63 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,12n,81p,1267b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,1318b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on LS.pdf (4 pages, 167486 bytes).
+Output written on LS.pdf (5 pages, 168943 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

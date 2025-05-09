@@ -105,7 +105,46 @@ DTE, atau DCE ke DCE.
 Bagian ini berisi jawaban dari tugas pendahuluan yang telah Anda kerjakan, beserta penjelasan dari jawaban tersebut:
 
 \begin{enumerate}
-    \item Jawaban
-    \item Jawaban
-    \item Jawaban
+    \item Departemen R&D menggunakan prefix /25 dan .2 subnet,
+    departemen Keuangan menggunakan prefix /28 dan .3,departemen
+    administrasi menggunakan /27 dan .4 subnet,dan departemen produksi menggunakan /26 dan .5 subnet. 
+    Terdapat 4 subnet yang akan digunakan.
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Departemen} & \textbf{Total} & \textbf{CIDR} & \textbf{Subnet}\\
+        \hline
+        Research and Development & 105 & /25  & .2\\
+        Keuangan & 15 & /28 & .3 \\
+        Administrasi & 25 & /27 & .4\\
+        Produksi & 55 & /26 & .5 \\
+        \hline
+        \end{tabular}
+        \caption{Tabel }
+        \label{tab:routing}
+        \end{table}
+    \item Terdapat router utama yang beralamatkan IP 192.168.1.1.  setelah itu nanti tiap
+    departmen memiliki subnet ip sendiri-sendiri yang sudah ditentukan.
+    \begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Network Destination} & \textbf{Netmask/Prefix} & \textbf{Gateway} & \textbf{Interface Tujuan} \\
+    \hline
+    192.168.2.0 & /25 & 192.168.1.1 & Research and Development \\
+    192.168.3.0 & /28 & 192.168.1.1 & Keuangan \\
+    192.168.4.0 & /27 & 192.168.1.1 & Administrasi \\
+    192.168.5.0 & /26 & 192.168.1.1 & Produksi \\
+    \hline
+    \end{tabular}
+    \caption{Tabel Routing untuk Masing-Masing Departemen}
+    \label{tab:routing}
+    \end{table}      
+    \item Static routing karena lebih mudah untuk diimplementasikan pada jaringan yang tidak perlu bergantian
+    untuk pengalamatan IP, lebih mudah untuk dikonfigurasikan jika terdapat User baru untuk mengelompokkannya,
+    dan karena ini untukk internal dan bukan publik maka tidak ada user yang sering keluar masuk jaringan.
+
 \end{enumerate}
+
+
