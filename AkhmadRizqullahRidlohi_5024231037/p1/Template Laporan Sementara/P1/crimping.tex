@@ -109,7 +109,7 @@ Bagian ini berisi jawaban dari tugas pendahuluan yang telah Anda kerjakan, beser
     departemen Keuangan menggunakan prefix /28 dan .3,departemen
     administrasi menggunakan /27 dan .4 subnet,dan departemen produksi menggunakan /26 dan .5 subnet. 
     Terdapat 4 subnet yang akan digunakan.
-    \begin{table}[h!]
+    \begin{table}[H]
         \centering
         \begin{tabular}{|c|c|c|c|}
         \hline
@@ -126,8 +126,9 @@ Bagian ini berisi jawaban dari tugas pendahuluan yang telah Anda kerjakan, beser
         \end{table}
     \item Terdapat router utama yang beralamatkan IP 192.168.1.1.  setelah itu nanti tiap
     departmen memiliki subnet ip sendiri-sendiri yang sudah ditentukan, dan terhubung ke router.
-    \item \begin{table}[h!]
-    \centering
+    
+    \item 
+    \begin{center}
     \begin{tabular}{|c|c|c|c|}
     \hline
     \textbf{Network Destination} & \textbf{Netmask/Prefix} & \textbf{Gateway} & \textbf{Interface Tujuan} \\
@@ -138,9 +139,10 @@ Bagian ini berisi jawaban dari tugas pendahuluan yang telah Anda kerjakan, beser
     192.168.5.0 & /26 & 192.168.1.1 & Produksi \\
     \hline
     \end{tabular}
-    \caption{Tabel Routing untuk Masing-Masing Departemen}
+    \captionof{table}{Tabel Routing untuk Masing-Masing Departemen}
     \label{tab:routing}
-    \end{table}      
+    \end{center}
+    
     \item Static routing karena lebih mudah untuk diimplementasikan pada jaringan yang tidak perlu bergantian
     untuk pengalamatan IP, lebih mudah untuk dikonfigurasikan jika terdapat User baru untuk mengelompokkannya,
     dan karena ini untukk internal dan bukan publik maka tidak ada user yang sering keluar masuk jaringan.
