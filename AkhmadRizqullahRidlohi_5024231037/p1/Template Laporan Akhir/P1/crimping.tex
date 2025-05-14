@@ -1,18 +1,95 @@
 \section{Langkah-Langkah Percobaan}
-Bagian ini menjelaskan secara rinci tahapan atau prosedur yang dilakukan selama praktikum. Langkah-langkah ditulis secara urut dan sistematis, mulai dari persiapan alat hingga pelaksanaan percobaan. Penulisan harus jelas agar dapat dipahami oleh orang lain yang membaca laporan ini.
+
+\subsection{Percobaan Crimping}
+\begin{enumerate}
+	\item Kabel LAN dikuliti sepangjan seutas jari
+	\item Urutkan kabel sesuai dengan urutan warna kabel
+	\item Setelah itu crimping konektornya
+	\item Test lah menggunakan alat tester untuk mengetahui kabel crimping sudah benar atau belum  
+\end{enumerate}
+
+\subsection{Percobaan Routing Statis}
+\begin{enumerate}
+    \item Masuk ke Winbox untuk mereset router
+    \item Lalu hubungkan router ke PC menggunakan kabel LAN, dan login ke router dengan MAC address
+    atau iP address default
+    \item Lalu konfigurasi IP address pada sambungan ether 1 untuk digunakan sebagai jalur antar router pada kedua laptop
+    \item Lalu konfigurasi IP address pada sambungan ether 2 untuk digunakan sebagai jalur ke PC pada kedua laptop
+    \item Selanjutnya menambahkan IP address dengan manual. Masuk ke meu IP, lalu pilih routes, Untuk router 1 
+    gunakan alamat network router 2, dan untuk router 2 gunakan alamat network router 1,dan untuk 
+    ether gateway 1 gunakan alamat ether 2, dan untuk ether gateway 2 gunakan alamat ether 1.
+    \item Lalu konfigurasikan IP address pada laptop dengan cara manual interface menggunakan setting
+    windows, dengan router 1 dan router 2 konfigurasikan IP,netmask,dan gateway sesuai dengan tujuan
+    \item Lalu uji ping untuk mengetest konektivitas antara laptop 1 dan laptop 2  
+\end{enumerate}
+
+
+\subsection{Percobaan Routing Dinamis}
+Pada percobaan ini kosong karena kelompok kami belum berhasil melakukan percobaan routing statis,
+sehingga kami tidak bisa melanjutkan ke Routing Dinamis.
+\begin{enumerate}
+    \item 
+\end{enumerate}
 
 \section{Analisis Hasil Percobaan}
-Berisi pembahasan terhadap hasil yang diperoleh selama praktikum. Analisis dilakukan dengan membandingkan hasil percobaan terhadap teori, serta mengidentifikasi faktor-faktor yang memengaruhi hasil, seperti kesalahan alat atau langkah percobaan. Tujuan bagian ini adalah untuk mengevaluasi keberhasilan percobaan dan memastikan pemahaman praktikan terkait praktikum yang telah dilaksanakan.
-
+Kabel LAN memiliki sebuah urutan yang perlu diikuti untuk pengkonfigurasi kabelnya, saat terdapat kesalahan
+mengurutkan kabel yang sudah dikuliti dan dipasang dengan konektor, maka saat ditest menggunakan alat 
+pengecekan, pada alat lampu yang berkedip tidak sesuai dengan urutan yang sudah ditentukan oleh alat tersebut.
+Pada percobaan routing statis, kami tidak berhasil melakukan percobaan, kami mungkin ada kesalahan pada penginputan 
+alamat IP address, baik itu pada alamat IP untuk router 1 dan router 2, atau juga alamat untuk menghubungkan
+laptop dengan router. Pada percobaan routing dinamis, kami tidak bisa melanjutkan percobaan ini karena kami belum berhasil
+melakukan percobaan routing statis, sehingga kami tidak bisa melanjutkan ke routing dinamis, dan waktunya
+sudah habis
 \section{Hasil Tugas Modul}
-Bagian ini memuat hasil dari pengerjaan tugas tambahan yang diberikan dalam modul praktikum serta penjelasan dari jawaban tersebut. 
+\begin{enumerate}
+    \item Terdapat 4 subnet, di mana masing masing subnet akan diisi oleh 4 departemen, dan terdapat 1 switch
+    yang berfungsi sebagai penghubung antar semua device yang ada pada subnet ke Router,di setiap PC dan switch
+    sudah dikongifurasikan untuk alamat IP dan gateway. 
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{cisco.png}
+		\caption{Gambar Topologi pada Cisco Packet Tracer}
+		\label{fig:gambar1}
+	\end{figure}
+\end{enumerate}
+
 
 \section{Kesimpulan}
-Kesimpulan berisi ringkasan dari hasil praktikum dan hal-hal penting yang didapatkan. Bagian ini menjawab tujuan praktikum, mencantumkan hasil yang sesuai atau tidak sesuai dengan teori, serta pembelajaran yang diperoleh oleh praktikan.
+Dari percobaan yang sudah dilakukan,dapat disimpulkan bahwa kabel LAN memiliki urutan kabel yang harus diikuti,sehingga
+kabel LAN dapat berfungsi dengan baik, dan saat dilakukan pengujian menggunakan alat tester, lampu yang berkedip.
+Pada percobaan routing statis, kami tidak berhasil melakukan percobaan ini, kami mungkin ada kesalahan pada penginputan
+atau pada alat yang digunakan baik itu software atau hardware, sehingga kami tidak bisa melanjutkan ke routing dinamis. Pada percobaan routing dinamis,
 
 \section{Lampiran}
 \subsection{Dokumentasi saat praktikum}
-Menampilkan foto selama pelaksanaan praktikum. Dokumentasi meliputi foto alat yng digunakan dan foto praktikan saat praktikum. Tujuannya sebagai bukti telah dilakukan kegiatan praktikum.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{1.png}
+		\caption{Kabel LAN Selesai di crimping}
+		\label{fig:gambar1}
+	\end{figure}
+    	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{2.png}
+		\caption{Kabel LAN Ditest}
+		\label{fig:gambar1}
+	\end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{3.png}
+        \caption{Mereset Router pada Winbox}
+        \label{fig:gambar1}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{4.png}
+        \caption{Menginput Alamat IP pada Winbox}
+        \label{fig:gambar1}
+    \end{figure}
+    
+
 
 \subsection{Hasil Challenge Modul}
 Memuat hasil dari challenge modul saat praktikum (jika berhasil mengerjakan challenge) serta penjelasan lengkap dari hasil tersebut. 
