@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  14 MAY 2025 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  14 MAY 2025 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,7 +645,20 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 88.
 (/home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-) (LA.aux)
+) (LA.aux
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+)
 \openout1 = `LA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -697,6 +710,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 88.
+ (LA.out) (LA.out)
 \@outlinefile=\write5
 \openout5 = `LA.out'.
 
@@ -760,7 +774,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=6, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=42, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -781,147 +795,82 @@ Overfull \hbox (2.23888pt too wide) in paragraph at lines 14--16
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 \section
+l.40 \section
              {Hasil Tugas Modul}
-<miot.png, id=18, 200.75pt x 200.75pt>
+<miot.png, id=54, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
-Package pdftex.def Info: miot.png  used on input line 43.
+Package pdftex.def Info: miot.png  used on input line 40.
 (pdftex.def)             Requested size: 238.9995pt x 239.01491pt.
  [1
 
  <./miot.png>]
-<cisco.png, id=40, 1371.1225pt x 770.88pt>
+<cisco.png, id=70, 1371.1225pt x 770.88pt>
 File: cisco.png Graphic file (type png)
 <use cisco.png>
-Package pdftex.def Info: cisco.png  used on input line 50.
+Package pdftex.def Info: cisco.png  used on input line 47.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
-Overfull \hbox (15.8362pt too wide) in paragraph at lines 58--62
+Overfull \hbox (15.8362pt too wide) in paragraph at lines 55--59
 \T1/qhv/m/n/10.95 melakukan percobaan ini, kami mungkin ada kesalahan pada penginputan atau pada alat yang digunakan
  []
 
-
-LaTeX Warning: File `1.png' not found on input line 67.
-
-
-P1/crimping.tex:67: Package pdftex.def Error: File `1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...ncludegraphics[width=0.5\linewidth]{1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 67.
-(/home/goated/.miktex/texmfs/install/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-
-LaTeX Warning: File `2.png' not found on input line 73.
-
-
-P1/crimping.tex:73: Package pdftex.def Error: File `2.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...ncludegraphics[width=0.5\linewidth]{2.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<1.jpeg, id=71, 1606.0pt x 1204.5pt>
+File: 1.jpeg Graphic file (type jpg)
+<use 1.jpeg>
+Package pdftex.def Info: 1.jpeg  used on input line 64.
+(pdftex.def)             Requested size: 241.84843pt x 181.38399pt.
+<2.jpeg, id=72, 903.375pt x 1606.0pt>
+File: 2.jpeg Graphic file (type jpg)
+<use 2.jpeg>
+Package pdftex.def Info: 2.jpeg  used on input line 70.
+(pdftex.def)             Requested size: 241.84843pt x 429.94997pt.
 
 
 [2 <./cisco.png>]
 
-LaTeX Warning: File `3.png' not found on input line 80.
+[3 <./1.jpeg>]
+<3.jpeg, id=85, 1606.0pt x 903.375pt>
+File: 3.jpeg Graphic file (type jpg)
+<use 3.jpeg>
+Package pdftex.def Info: 3.jpeg  used on input line 77.
+(pdftex.def)             Requested size: 241.84843pt x 136.038pt.
+<4.jpeg, id=86, 1606.0pt x 903.375pt>
+File: 4.jpeg Graphic file (type jpg)
+<use 4.jpeg>
+Package pdftex.def Info: 4.jpeg  used on input line 84.
+(pdftex.def)             Requested size: 241.84843pt x 136.038pt.
 
 
-P1/crimping.tex:80: Package pdftex.def Error: File `3.png' not found: using draft setting.
+[4 <./2.jpeg> <./3.jpeg>])
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...ncludegraphics[width=0.5\linewidth]{3.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[3]
-
-LaTeX Warning: File `4.png' not found on input line 87.
-
-
-P1/crimping.tex:87: Package pdftex.def Error: File `4.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...ncludegraphics[width=0.5\linewidth]{4.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-Overfull \hbox (15.43556pt too wide) in paragraph at lines 95--98
-\T1/qhv/m/n/10.95 Memuat hasil dari challenge modul saat praktikum (jika berhasil mengerjakan challenge) serta penjelasan
- []
-
-
-Package transparent Warning: Rerun to get transparencies right.
-
-
-
-[4] (LA.aux)
+[5 <./4.jpeg>] (LA.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `LA.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `LA.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  BE7757EA5B21BE0889160D7D5A365FCF;1533.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                LA
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `LA.out' has not changed.
+(rerunfilecheck)             Checksum: 2A48D200067522E2CCA43A513C1DD025;1364.
 Package logreq Info: Writing requests to 'LA.run.xml'.
 \openout1 = `LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21676 strings out of 475832
- 376505 string characters out of 5778116
- 1200388 words of memory out of 5000000
- 44009 multiletter control sequences out of 15000+600000
- 604398 words of font info for 64 fonts, out of 8000000 for 9000
+ 21577 strings out of 475832
+ 374770 string characters out of 5778116
+ 1199675 words of memory out of 5000000
+ 43911 multiletter control sequences out of 15000+600000
+ 604084 words of font info for 63 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,12n,81p,1314b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (5 pages, 252387 bytes).
+</home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
+Output written on LA.pdf (6 pages, 829048 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

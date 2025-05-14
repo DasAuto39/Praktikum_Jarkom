@@ -1,17 +1,15 @@
 # Fdb version 4
-["biber LA"] 0 "LA.bcf" "LA.bbl" "LA" 0 -1
-  "LA.bcf" 1747229464.49 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
+["biber LA"] 0 "LA.bcf" "LA.bbl" "LA" 1747229976.8493 -1
+  "LA.bcf" 1747229976.38296 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1747229460.36276 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1747229465.01872 2
+["pdflatex"] 1747229972.33533 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1747229976.85057 0
   "/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1747115003.10671 69488 c788be21ede43934ac95bf6caebd95bc ""
-  "/home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1730361539.65397 21972 952c8d76c531ff75ba53356297a826ce ""
   "/home/goated/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1730264024.76699 8731074 e2b8dffb6ce14f3489e45c6f5b54d9cc ""
   "/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc" 1730264273.01999 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "/home/goated/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1730264259.54399 3172 eb6efaa83c6c52473a1c403f376eab0f ""
-  "/home/goated/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ectt1095.tfm" 1730264259.56199 1352 fa21dcb5ddc7d1dc47d14cd897fdeb0f ""
   "/home/goated/.miktex/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1730264312.17299 1004 54797486969f23fa377b128694d548df ""
   "/home/goated/.miktex/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1730264312.17299 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/home/goated/.miktex/texmfs/install/fonts/tfm/public/cm/cmex10.tfm" 1730263900.37299 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -66,7 +64,6 @@
   "/home/goated/.miktex/texmfs/install/tex/latex/base/ifthen.sty" 1730263809.24899 5525 3792dcd5bc92158cfaf00cc591e557cf ""
   "/home/goated/.miktex/texmfs/install/tex/latex/base/inputenc.sty" 1730263809.26699 5048 7ebf0f2edf1ef6783e8fe2201a95d0e8 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/base/size11.clo" 1730263809.26399 8464 6b4d01be31907866396cf4ac23881d2d ""
-  "/home/goated/.miktex/texmfs/install/tex/latex/base/t1cmtt.fd" 1730263809.27899 2443 790016d75def8d3127df5c216a45abcc ""
   "/home/goated/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.bbx" 1730264243.75199 20269 a0d0b3140a8efae631df1de5dd4c8333 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.cbx" 1730264243.75199 4657 79643dc8026e77bfb155ed1e29eb6ad1 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric-comp.bbx" 1730264231.37899 92 7cdbb04a1e32fba0fbb91b6e6d123497 ""
@@ -131,19 +128,20 @@
   "/home/goated/.miktex/texmfs/install/tex/latex/url/url.sty" 1730264196.64299 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1730264093.11999 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" 1747229452.7597 2739 05fc0dc51ba546531915eb55275f29a7 ""
-  "1.png" 0 -1 0 ""
-  "2.png" 0 -1 0 ""
-  "3.png" 0 -1 0 ""
-  "4.png" 0 -1 0 ""
+  "1.jpeg" 1747229295.65524 228174 210870d1a23b7d01f87fbee2a88eb62f ""
+  "2.jpeg" 1747229295.65724 133005 66243b5ea07389d8eb55508611a2cdca ""
+  "3.jpeg" 1747229295.65924 89451 b30614bc4a6cb83c6a32246fa098b015 ""
+  "4.jpeg" 1747229295.66224 125317 ce1b04fbca9e4fbda5b735aa779aa181 ""
   "Cover/Header.tex" 1746447308 815 d1ecf0084ecebe6fef3cd4325a2a8258 ""
   "Cover/img/footer.png" 1746447308 28618 66808c84f12f49ce70f8339a56e26dcb ""
   "Cover/img/logodepart.png" 1746447308 37002 e4a53892fe3eef46b801a8ae6ad8641f ""
   "Cover/img/miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
-  "LA.aux" 1747229464.479 2900 d576d96834bae9c9f34f7fa62ee08f5d "pdflatex"
+  "LA.aux" 1747229976.37396 2775 f28bf591af7c8ffafe7a4601ad185c30 "pdflatex"
   "LA.bbl" 1747222796.01281 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1747229464.486 1533 be7757ea5b21be0889160d7d5a365fcf "pdflatex"
+  "LA.out" 1747229976.37896 1364 2a48d200067522e2cca43a513c1dd025 "pdflatex"
+  "LA.run.xml" 1747229976.38596 2276 7e7737baf1ca4036fb9a56342306cac1 "pdflatex"
   "LA.tex" 1747229452.7597 2739 05fc0dc51ba546531915eb55275f29a7 ""
-  "P1/crimping.tex" 1747229295.66924 4564 47be347424bb6c8c0dfc2aeee874304e ""
+  "P1/crimping.tex" 1747229970.90115 4306 493accd82f57a744e3ebb99b56a057b6 ""
   "cisco.png" 1747229295.67424 142035 3db7dc3e19f7171179ceb98de0bc6288 ""
   "miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
   (generated)
