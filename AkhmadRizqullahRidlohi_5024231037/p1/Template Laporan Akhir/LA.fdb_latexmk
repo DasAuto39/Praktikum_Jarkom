@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber LA"] 1747222772.7654 "LA.bcf" "LA.bbl" "LA" 1747228894.36811 0
-  "LA.bcf" 1747228893.86057 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
+["biber LA"] 0 "LA.bcf" "LA.bbl" "LA" 0 -1
+  "LA.bcf" 1747229464.49 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1747228889.9675 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1747228894.36907 2
+["pdflatex"] 1747229460.36276 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1747229465.01872 2
   "/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1747115003.10671 69488 c788be21ede43934ac95bf6caebd95bc ""
   "/home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1730361539.65397 21972 952c8d76c531ff75ba53356297a826ce ""
   "/home/goated/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1730264024.76699 8731074 e2b8dffb6ce14f3489e45c6f5b54d9cc ""
@@ -130,7 +130,7 @@
   "/home/goated/.miktex/texmfs/install/tex/latex/transparent/transparent.sty" 1746493882.47783 1918 c8d1ecb3722721d6f624992cbc042b70 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/url/url.sty" 1730264196.64299 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1730264093.11999 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" 1746447308 2728 65ac982c14e214e5563c8c4498dd5447 ""
+  "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" 1747229452.7597 2739 05fc0dc51ba546531915eb55275f29a7 ""
   "1.png" 0 -1 0 ""
   "2.png" 0 -1 0 ""
   "3.png" 0 -1 0 ""
@@ -139,12 +139,12 @@
   "Cover/img/footer.png" 1746447308 28618 66808c84f12f49ce70f8339a56e26dcb ""
   "Cover/img/logodepart.png" 1746447308 37002 e4a53892fe3eef46b801a8ae6ad8641f ""
   "Cover/img/miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
-  "LA.aux" 1747228893.85157 2900 d576d96834bae9c9f34f7fa62ee08f5d "pdflatex"
+  "LA.aux" 1747229464.479 2900 d576d96834bae9c9f34f7fa62ee08f5d "pdflatex"
   "LA.bbl" 1747222796.01281 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1747228893.85657 1533 be7757ea5b21be0889160d7d5a365fcf "pdflatex"
-  "LA.tex" 1746447308 2728 65ac982c14e214e5563c8c4498dd5447 ""
-  "P1/crimping.tex" 1747228882.66915 4564 47be347424bb6c8c0dfc2aeee874304e ""
-  "cisco.png" 1747223929.90067 142035 3db7dc3e19f7171179ceb98de0bc6288 ""
+  "LA.out" 1747229464.486 1533 be7757ea5b21be0889160d7d5a365fcf "pdflatex"
+  "LA.tex" 1747229452.7597 2739 05fc0dc51ba546531915eb55275f29a7 ""
+  "P1/crimping.tex" 1747229295.66924 4564 47be347424bb6c8c0dfc2aeee874304e ""
+  "cisco.png" 1747229295.67424 142035 3db7dc3e19f7171179ceb98de0bc6288 ""
   "miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
   (generated)
   "LA.aux"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  14 MAY 2025 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  14 MAY 2025 20:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,8 +645,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 88.
 (/home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)
-No file LA.aux.
+) (LA.aux)
 \openout1 = `LA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -668,7 +667,7 @@ LaTeX Font Info:    ... okay on input line 88.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
 \c@lstlisting=\count445
-(/home/goated/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+ (/home/goated/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count446
 \scratchdimen=\dimen189
@@ -912,15 +911,15 @@ Package logreq Info: Writing requests to 'LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21673 strings out of 475832
- 376357 string characters out of 5778116
- 1200386 words of memory out of 5000000
- 44008 multiletter control sequences out of 15000+600000
+ 21676 strings out of 475832
+ 376505 string characters out of 5778116
+ 1200388 words of memory out of 5000000
+ 44009 multiletter control sequences out of 15000+600000
  604398 words of font info for 64 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,12n,81p,1314b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (5 pages, 252172 bytes).
+Output written on LA.pdf (5 pages, 252387 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)

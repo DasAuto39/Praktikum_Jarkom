@@ -213,6 +213,9 @@ INPUT /home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 INPUT /home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 INPUT /home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 INPUT /home/goated/.miktex/texmfs/install/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
+INPUT ./LA.aux
+INPUT ./LA.aux
+INPUT LA.aux
 OUTPUT LA.aux
 INPUT /home/goated/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /home/goated/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
