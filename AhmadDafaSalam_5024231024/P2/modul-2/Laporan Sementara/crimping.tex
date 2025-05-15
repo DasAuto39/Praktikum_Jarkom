@@ -1,0 +1,91 @@
+\section{Pendahuluan}
+\subsection{Latar Belakang}
+Dikarenakan Keterbatasan jumlah alamat pada IPv4 telah mendorong kebutuhan akan protokol internet baru yang lebih mampu mengakomodasi pertumbuhan jumlah perangkat jaringan. Praktikum ini dilakukan untuk semakin memahami pengalamatan, subnetting, dan routing pada jaringan berbasis IPv6.
+
+\subsubsection{Dasar Teori}
+{IPv6 (Internet Protocol version 6)} adalah versi terbaru dari protokol IP yang digunakan untuk mengidentifikasi perangkat dalam jaringan dan mengatur lalu lintas data antar perangkat. IPv6 menggunakan panjang alamat 128-bit yang memungkinkan hingga $2^{128}$ atau sekitar $3.4 \times 10^{38}$ alamat unik. Format alamatnya ditulis dalam heksadesimal dan dipisahkan oleh tanda titik dua (::).
+
+\textbf{Perbedaan IPv4 dan IPv6} meliputi:
+\begin{itemize}
+    \item Panjang alamat (IPv4: 32-bit, IPv6: 128-bit)
+    \item Format penulisan (IPv4 desimal, IPv6 heksadesimal)
+    \item Header paket (IPv6 lebih sederhana)
+    \item IPv6 mendukung konfigurasi otomatis (SLAAC) dan keamanan end-to-end (IPSec)
+\end{itemize}
+
+\textbf{Routing IPv6} adalah proses pengiriman paket antar jaringan dengan alamat IPv6. Terdapat dua metode utama:
+\begin{enumerate}
+    \item \textbf{Routing Statis}: Administrator jaringan menentukan rute secara manual. Cocok untuk topologi kecil dan stabil.
+    \item \textbf{Routing Dinamis}: Router secara otomatis membentuk dan memperbarui tabel routing menggunakan protokol seperti OSPFv3 atau BGP. Cocok untuk jaringan besar dan sering berubah.
+\end{enumerate}
+
+
+%===========================================================%
+\section{Tugas Pendahuluan}
+\begin{enumerate}
+    \item \textbf{Apa itu IPv6 dan bedanya dengan IPv4?}
+
+    IPv6 adalah versi terbaru dari protokol IP dengan panjang alamat 128-bit, jauh lebih besar dari IPv4 (32-bit). IPv6 menyediakan jumlah alamat yang sangat besar dan mendukung konfigurasi otomatis, keamanan end-to-end, serta tidak memerlukan NAT.
+
+    \textbf{Perbedaan:}
+    \begin{itemize}
+        \item IPv4: 32-bit, desimal, dukung NAT.
+        \item IPv6: 128-bit, heksadesimal, tanpa NAT, auto config.
+    \end{itemize}
+
+    \item \textbf{Pembagian \texttt{2001:db8::/32} menjadi 4 subnet /64:}
+    
+    \begin{itemize}
+        \item Subnet A: \texttt{2001:db8:0:1::/64}
+        \item Subnet B: \texttt{2001:db8:0:2::/64}
+        \item Subnet C: \texttt{2001:db8:0:3::/64}
+        \item Subnet D: \texttt{2001:db8:0:4::/64}
+    \end{itemize}
+
+    \item \textbf{Alamat IPv6 untuk antarmuka router:}
+
+    \begin{itemize}
+        \item ether1: \texttt{2001:db8:0:1::1/64}
+        \item ether2: \texttt{2001:db8:0:2::1/64}
+        \item ether3: \texttt{2001:db8:0:3::1/64}
+        \item ether4: \texttt{2001:db8:0:4::1/64}
+    \end{itemize}
+
+    Konfigurasi:
+    \begin{verbatim}
+/ipv6 address
+add address=2001:db8:0:1::1/64 interface=ether1
+... (dst)
+    \end{verbatim}
+
+    \item \textbf{Tabel Routing Statis IPv6:}
+
+Karena semua subnet langsung terhubung ke router, maka setiap antarmuka memiliki rute ke subnet masing-masing. Berikut tabelnya:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Tujuan Jaringan (Destinasi)} & \textbf{Prefix} & \textbf{Interface (Next Hop)} \\
+\hline
+2001:db8:0:1::/64 & /64 & ether1 \\
+2001:db8:0:2::/64 & /64 & ether2 \\
+2001:db8:0:3::/64 & /64 & ether3 \\
+2001:db8:0:4::/64 & /64 & ether4 \\
+\hline
+\end{tabular}
+\end{center}
+
+Konfigurasi di MikroTik:
+\begin{verbatim}
+/ipv6 route
+add dst-address=2001:db8:0:1::/64 gateway=ether1
+add dst-address=2001:db8:0:2::/64 gateway=ether2
+add dst-address=2001:db8:0:3::/64 gateway=ether3
+add dst-address=2001:db8:0:4::/64 gateway=ether4
+\end{verbatim}
+
+
+    \item \textbf{Fungsi dan penggunaan routing statis:}
+
+    Routing statis digunakan untuk jaringan kecil dan stabil. Keuntungannya adalah kontrol penuh dan ringan bagi perangkat. Digunakan saat jaringan tidak sering berubah. Jika jaringan dinamis dan besar, routing dinamis seperti OSPFv3 lebih cocok.
+\end{enumerate}
