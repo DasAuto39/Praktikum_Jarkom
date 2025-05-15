@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber LA"] 0 "LA.bcf" "LA.bbl" "LA" 1747229976.8493 -1
-  "LA.bcf" 1747229976.38296 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
+["biber LA"] 0 "LA.bcf" "LA.bbl" "LA" 1747285245.11421 -1
+  "LA.bcf" 1747285244.60459 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1747229972.33533 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1747229976.85057 0
-  "/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1747115003.10671 69488 c788be21ede43934ac95bf6caebd95bc ""
+["pdflatex"] 1747285239.62061 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p1/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1747285245.1156 0
+  "/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1747281483.65994 69488 c788be21ede43934ac95bf6caebd95bc ""
   "/home/goated/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1730264024.76699 8731074 e2b8dffb6ce14f3489e45c6f5b54d9cc ""
   "/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc" 1730264273.01999 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "/home/goated/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1730264259.54399 3172 eb6efaa83c6c52473a1c403f376eab0f ""
@@ -136,12 +136,12 @@
   "Cover/img/footer.png" 1746447308 28618 66808c84f12f49ce70f8339a56e26dcb ""
   "Cover/img/logodepart.png" 1746447308 37002 e4a53892fe3eef46b801a8ae6ad8641f ""
   "Cover/img/miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
-  "LA.aux" 1747229976.37396 2775 f28bf591af7c8ffafe7a4601ad185c30 "pdflatex"
+  "LA.aux" 1747285244.59459 2775 f28bf591af7c8ffafe7a4601ad185c30 "pdflatex"
   "LA.bbl" 1747222796.01281 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1747229976.37896 1364 2a48d200067522e2cca43a513c1dd025 "pdflatex"
-  "LA.run.xml" 1747229976.38596 2276 7e7737baf1ca4036fb9a56342306cac1 "pdflatex"
+  "LA.out" 1747285244.59959 1364 2a48d200067522e2cca43a513c1dd025 "pdflatex"
+  "LA.run.xml" 1747285244.60859 2276 7e7737baf1ca4036fb9a56342306cac1 "pdflatex"
   "LA.tex" 1747229452.7597 2739 05fc0dc51ba546531915eb55275f29a7 ""
-  "P1/crimping.tex" 1747229970.90115 4306 493accd82f57a744e3ebb99b56a057b6 ""
+  "P1/crimping.tex" 1747285234.78649 4547 807e7d61dca4692a2bf90ac82949f94c ""
   "cisco.png" 1747229295.67424 142035 3db7dc3e19f7171179ceb98de0bc6288 ""
   "miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
   (generated)
