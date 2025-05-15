@@ -1,15 +1,82 @@
 \section{Pendahuluan}
 \subsection{Latar Belakang}
-Bagian ini menjelaskan alasan dilaksanakannya praktikum, termasuk pentingnya topik yang dibahas. Latar belakang mencantumkan permasalahan yang ingin diselesaikan, urgensi pembelajaran topik, serta keterkaitannya dengan aplikasi dunia nyata atau teknologi saat ini.
+Praktikum ini dilakukan untuk memahami Ipv6, di mana Ipv6 adalah protokol yang lebih modern dibandingkan
+Ipv4 di mana Ipv6 adalah masa depan dari Ipv4
 
 \subsection{Dasar Teori}
-Bagian ini memuat teori-teori dasar yang mendukung pelaksanaan praktikum. Penjelasan mencakup konsep teknis, nama istilah, serta prinsip ilmiah yang relevan. Tujuannya adalah untuk memberikan pemahaman mendalam sebelum praktikum dilakukan.
+Ipv6 adalah protokol generasi terbaru,Ipv6 mempunyai alamat yang lebih besar,yaitu 340 undecillion alamat.
+Ipv6 ditulis dalam format hexadecimal. Sistem keamanan Ipv6 lebih baik dibandingkan Ipv6, dan lebih efisien
+untuk penggunaannya dibandingkan dengan Ipv6.
+
+Ipv6 mempunyai panjang alamat 128 bit, 48 bit pertama merepresentasikan alamat jaringan global, 16 bit selanjutnya
+merepresentasikan subnet, dan 64 bit terakhir merepresentasikan host. Alamat Ipv6 ditulis dalam format hexadecimal
+dengan pemisah ":" dan setiap 4 digit hexadecimal merepresentasikan 16 bit. Alamat Ipv6 juga dapat disingkat
+dengan menghilangkan 0 yang berurutan, dan juga dapat disingkat dengan menghilangkan 0 yang berada di depan
+sehingga menjadi lebih pendek. Contoh alamat Ipv6 adalah 2001:0db8:0000:0042:0000:8a2e:0370:7334
+atau 2001:db8:0:42::8a2e:370:7334. Alamat Ipv6 juga dapat ditulis dalam format binary, di mana setiap digit
+hexadecimal merepresentasikan 4 bit. Terdapat tipe tipe Ipv6 yang berbeda, yaitu unicast, multicast, dan anycast.
+Unicast adalah alamat yang digunakan untuk mengirimkan paket ke satu host, multicast adalah alamat yang digunakan
+untuk mengirimkan paket ke beberapa host, dan anycast adalah alamat yang digunakan untuk mengirimkan paket
+ke satu host terdekat dari beberapa host yang ada.	
 
 %===========================================================%
 \section{Tugas Pendahuluan}
 Bagian ini berisi jawaban dari tugas pendahuluan yang telah anda kerjakan, beserta penjelasan dari jawaban tersebut
 \begin{enumerate}
-	\item jawaban
-	\item jawaban
-	\item jawaban
+	\item Ipv6 adalah protokol generasi terbaru,Ipv6 mempunyai alamat yang lebih besar,yaitu 340 undecillion alamat.
+	Ipv6 ditulis dalam format hexadecimal, dimana Ipv4 hanya 32 bit dan dituliskan dalam format decimal.Checksum
+	Ipv6 tidak menggunakan checksum, karena Ipv6 sudah menggunakan header yang lebih baik dibandingkan Ipv4.Ipv6 mempunyaij
+	header yang tetap dengan panjang 40 byte, sedangkan Ipv4 mempunyai header yang panjangnya bervariasi.Ipv6
+	tidak support VLSM, sedangkan Ipv4 support VLSM.Ipv6 tidak support NAT, sedangkan Ipv4 support NAT.Ipv6 tidak support broadcast,
+	Ipv6 support Secure Neighbor Discovery (SEND), sedangkan Ipv4 tidak support SEND.
+	\item \begin{itemize}
+		\item Subnet A: \texttt{2001:db8:0:1::/64}
+		\item Subnet B: \texttt{2001:db8:0:2::/64}
+		\item Subnet C: \texttt{2001:db8:0:3::/64}
+		\item Subnet D: \texttt{2001:db8:0:4::/64}
+	\end{itemize}
+	 
+	\item 
+	A.
+	\begin{itemize}
+		\item ether1 (Subnet A): \texttt{2001:db8:0:1::1/64}
+		\item ether2 (Subnet B): \texttt{2001:db8:0:2::1/64}
+		\item ether3 (Subnet C): \texttt{2001:db8:0:3::1/64}
+		\item ether4 (Subnet D): \texttt{2001:db8:0:4::1/64}
+	\end{itemize}
+	B.
+	ether1 - Subnet A
+	interface ether1
+	ipv6 address 2001:db8:0:1::2/64
+
+	ether2 - Subnet B
+	interface ether2
+	ipv6 address 2001:db8:0:2::2/64
+
+	ether3 - Subnet C
+	interface ether3
+	ipv6 address 2001:db8:0:3::2/64
+
+	ether4 - Subnet D
+	interface ether4
+	ipv6 address 2001:db8:0:4::2/64
+	\item
+    \begin{center}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Destination Subnet} & \textbf{Next Hop} & \textbf{Interface}  \\
+    \hline
+	\texttt{2001:db8:0:1::/64} & \texttt{via 2001:db8:0:1::2} & ether1 \\
+	\texttt{2001:db8:0:2::/64} & \texttt{via 2001:db8:0:2::2} & ether2 \\
+	\texttt{2001:db8:0:3::/64} & \texttt{via 2001:db8:0:3::2} & ether3 \\
+	\texttt{2001:db8:0:4::/64} & \texttt{via 2001:db8:0:4::2} & ether4 \\
+    \hline
+    \end{tabular}
+    \captionof{table}{Tabel Routing untuk Masing-Masing Departemen}
+    \label{tab:routing}
+    \end{center}
+	\item Routing statis sebaiknya digunakan pada jaringan yang kecil dan yang jarang keluar masuk jaringan
+		, karena routing statis tidak akan mengupdate tabel routing secara otomatis. Routing dinamis sebaiknya digunakan pada jaringan yang besar,
+		karena routing dinamis akan mengupdate tabel routing secara otomatis. Routing statis lebih mudah diimplementasikan
+		dibandingkan routing dinamis, tetapi routing dinamis lebih fleksibel dibandingkan routing statis.
 \end{enumerate}
