@@ -1,0 +1,73 @@
+\section{Pendahuluan}
+\subsection{Latar Belakang}
+Pertumbuhan teknologi informasi yang pesat membawa dampak signifikan terhadap jumlah perangkat yang terkoneksi ke jaringan internet. Setiap perangkat tersebut memerlukan alamat IP agar dapat saling berkomunikasi. Selama beberapa dekade terakhir, protokol IPv4 menjadi standar utama dalam pengalamatan jaringan. Namun, dengan kapasitas hanya sekitar 4 miliar alamat, IPv4 mulai mengalami keterbatasan, terutama ketika dihadapkan pada era Internet of Things (IoT), layanan cloud, serta sistem kota pintar yang terus berkembang.
+
+Berbagai pendekatan seperti penggunaan Network Address Translation (NAT) telah digunakan untuk mengatasi kekurangan alamat IPv4, tetapi solusi ini hanya bersifat sementara dan tidak menyelesaikan akar masalahnya. Untuk itu, IPv6 dikembangkan sebagai pengganti IPv4, membawa peningkatan signifikan baik dari sisi kapasitas alamat maupun fitur teknisnya.
+
+IPv6 menawarkan ruang alamat yang sangat luas, sistem keamanan yang lebih baik, serta efisiensi dalam pengelolaan jaringan. Dalam rangka mendalami pemahaman mengenai pengalamatan dan pengaturan routing pada IPv6, praktikum ini dirancang untuk memberikan pengalaman langsung dalam menerapkan konfigurasi jaringan berbasis IPv6 yang sesuai dengan kebutuhan teknologi masa kini.
+
+\subsection{Dasar Teori}
+IPv6 (Internet Protocol version 6) merupakan versi terbaru dari protokol internet yang dikembangkan untuk menggantikan IPv4 karena keterbatasan jumlah alamat yang tersedia. Berbeda dengan IPv4 yang hanya memiliki panjang alamat 32 bit, IPv6 menggunakan 128 bit, sehingga dapat menyediakan lebih dari $3.4 \times 10^{38}$ alamat IP unik.
+
+Alamat IPv6 ditulis dalam format heksadesimal dan dipisahkan oleh tanda titik dua (\texttt{:}). Penulisan alamat dapat disingkat dengan menghilangkan nol yang berurutan atau nol di depan digit heksadesimal. Contohnya, alamat \texttt{2001:0db8:0000:0042:0000:8a2e:0370:7334} dapat disingkat menjadi \texttt{2001:db8:0:42::8a2e:370:7334}.
+
+Tipe-tipe pengalamatan pada IPv6 meliputi:
+\begin{itemize}
+  \item \textbf{Unicast} --- mengirim data ke satu tujuan tertentu.
+  \item \textbf{Multicast} --- mengirim data ke sekelompok perangkat.
+  \item \textbf{Anycast} --- mengirim data ke salah satu perangkat terdekat dari beberapa opsi.
+\end{itemize}
+
+Routing dalam jaringan IPv6 dapat dilakukan secara statis maupun dinamis. Routing statis diatur secara manual dan cocok untuk jaringan kecil, sedangkan routing dinamis lebih fleksibel karena dapat menyesuaikan rute secara otomatis menggunakan protokol seperti RIPng, OSPFv3, dan EIGRP for IPv6. IPv6 tidak mendukung beberapa mekanisme yang umum di IPv4, seperti NAT dan broadcast, tetapi mendukung protokol modern seperti Neighbor Discovery Protocol (NDP) yang lebih efisien dan aman.
+
+%===========================================================%
+\section{Tugas Pendahuluan}
+\begin{enumerate}
+ \item \textbf{Perbandingan IPv4 dan IPv6}\\
+    IPv6 merupakan pengembangan dari protokol IPv4 yang dirancang untuk mengatasi keterbatasan jumlah alamat IP. IPv4 hanya menyediakan sekitar 4 miliar alamat dengan panjang 32 bit, sedangkan IPv6 menggunakan panjang 128 bit, memungkinkan pemberian alamat unik dalam jumlah sangat besar (hingga 340 undecillion alamat). Selain itu, IPv6 memiliki sejumlah keunggulan teknis seperti:
+    \begin{itemize}
+        \item Header yang bersifat tetap dengan panjang 40 byte.
+        \item Tidak menggunakan checksum karena sudah dioptimasi di lapisan yang lebih bawah.
+        \item Mendukung pengalamatan otomatis (stateless auto-configuration).
+        \item Tidak memerlukan NAT karena ruang alamatnya sangat luas.
+        \item Tidak mendukung broadcast, digantikan dengan multicast dan anycast.
+        \item Mendukung keamanan jaringan melalui IPsec dan fitur SEND (Secure Neighbor Discovery).
+    \end{itemize}
+
+    \item \textbf{Pembagian Subnet IPv6}\\
+    Diberikan blok alamat \texttt{2001:db8::/32}, dilakukan pembagian menjadi empat subnet dengan panjang prefix \texttt{/64}:
+    \begin{itemize}
+        \item Subnet A: \texttt{2001:db8:0:1::/64}
+        \item Subnet B: \texttt{2001:db8:0:2::/64}
+        \item Subnet C: \texttt{2001:db8:0:3::/64}
+        \item Subnet D: \texttt{2001:db8:0:4::/64}
+    \end{itemize}
+
+    \item \textbf{Konfigurasi Alamat IPv6 pada Antarmuka Router}\\
+    Setiap antarmuka router dikonfigurasi untuk terhubung ke masing-masing subnet. Alamat yang digunakan adalah:
+    \begin{itemize}
+        \item \texttt{ether1 (Subnet A)}: \texttt{2001:db8:0:1::1/64}
+        \item \texttt{ether2 (Subnet B)}: \texttt{2001:db8:0:2::1/64}
+        \item \texttt{ether3 (Subnet C)}: \texttt{2001:db8:0:3::1/64}
+        \item \texttt{ether4 (Subnet D)}: \texttt{2001:db8:0:4::1/64}
+    \end{itemize}
+
+    \item \textbf{Tabel Routing Statis IPv6}\\
+    Jika tiap subnet berada di luar router yang sama, maka perlu konfigurasi tabel routing sebagai berikut:
+
+    \begin{center}
+        \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Jaringan Tujuan} & \textbf{Gateway} & \textbf{Interface} \\
+        \hline
+        2001:db8:0:1::/64 & via 2001:db8:0:1::2 & ether1 \\
+        2001:db8:0:2::/64 & via 2001:db8:0:2::2 & ether2 \\
+        2001:db8:0:3::/64 & via 2001:db8:0:3::2 & ether3 \\
+        2001:db8:0:4::/64 & via 2001:db8:0:4::2 & ether4 \\
+        \hline
+        \end{tabular}
+    \end{center}
+
+    \item \textbf{Routing Statis dan Dinamis}\\
+    Routing statis pada jaringan IPv6 adalah metode penentuan jalur lalu lintas data secara manual oleh administrator jaringan. Dengan routing statis, administrator secara eksplisit mengonfigurasi rute yang harus dilalui paket data menuju tujuan tertentu, tanpa menggunakan protokol routing dinamis seperti OSPFv3 atau RIPng. Pendekatan ini memberikan kontrol penuh terhadap jalur data dan mengurangi beban kerja perangkat jaringan karena tidak memerlukan pertukaran informasi routing secara terus-menerus. Routing statis sangat cocok digunakan pada jaringan yang kecil, topologinya sederhana, dan jarang mengalami perubahan. Selain itu, metode ini lebih aman karena tidak menyebarkan informasi routing secara terbuka, serta cocok untuk perangkat dengan sumber daya terbatas. Namun, untuk jaringan besar yang kompleks dan sering berubah, routing dinamis tetap lebih efisien karena dapat menyesuaikan diri secara otomatis terhadap kondisi jaringan.
+\end{enumerate}
