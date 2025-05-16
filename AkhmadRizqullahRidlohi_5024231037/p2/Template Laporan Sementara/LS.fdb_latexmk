@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber LS"] 0 "LS.bcf" "LS.bbl" "LS" 1747308984.63868 -1
-  "LS.bcf" 1747308984.18904 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
+["biber LS"] 0 "LS.bcf" "LS.bbl" "LS" 1747359675.88331 -1
+  "LS.bcf" 1747359675.39376 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
   (generated)
   "LS.bbl"
   "LS.blg"
   (rewritten before read)
-["pdflatex"] 1747308980.56321 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p2/Template Laporan Sementara/LS.tex" "LS.pdf" "LS" 1747308984.63989 0
+["pdflatex"] 1747359671.0857 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p2/Template Laporan Sementara/LS.tex" "LS.pdf" "LS" 1747359675.88464 0
   "/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1747281483.65994 69488 c788be21ede43934ac95bf6caebd95bc ""
   "/home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1730361539.65397 21972 952c8d76c531ff75ba53356297a826ce ""
   "/home/goated/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1730264024.76699 8731074 e2b8dffb6ce14f3489e45c6f5b54d9cc ""
@@ -138,12 +138,12 @@
   "Cover/img/footer.png" 1746447308 28618 66808c84f12f49ce70f8339a56e26dcb ""
   "Cover/img/logodepart.png" 1746447308 37002 e4a53892fe3eef46b801a8ae6ad8641f ""
   "Cover/img/miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
-  "LS.aux" 1747308984.18204 1179 3a18423cc69a2f77604931440a6d7a28 "pdflatex"
+  "LS.aux" 1747359675.38476 1179 3a18423cc69a2f77604931440a6d7a28 "pdflatex"
   "LS.bbl" 1747305495.93915 0 d41d8cd98f00b204e9800998ecf8427e "biber LS"
-  "LS.out" 1747308984.18604 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
-  "LS.run.xml" 1747308984.19104 2276 7205158936b1c16644ed2aaaec1046de "pdflatex"
+  "LS.out" 1747359675.38876 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
+  "LS.run.xml" 1747359675.39676 2276 7205158936b1c16644ed2aaaec1046de "pdflatex"
   "LS.tex" 1747305459.37608 2745 adec1026d137c528d12aa285466aca0c ""
-  "P1/crimping.tex" 1747308979.17971 4244 5204a6fe8cb1ffab0600fd981ffca475 ""
+  "P1/crimping.tex" 1747359667.3776 4348 1a5ec21b935a9fb2721b47a6545edc27 ""
   "miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
   (generated)
   "LS.aux"
