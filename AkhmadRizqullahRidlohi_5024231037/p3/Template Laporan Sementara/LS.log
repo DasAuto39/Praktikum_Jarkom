@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p2/Template Laporan Akhir/LA.tex"
-(/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p2/Template Laporan Akhir/LA.tex
+**"/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p3/Template Laporan Sementara/LS.tex"
+(/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p3/Template Laporan Sementara/LS.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
 (/home/goated/.miktex/texmfs/install/tex/latex/base/article.cls
@@ -645,33 +645,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 88.
 (/home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-) (LA.aux
-
-LaTeX Warning: Label `fig:gambar1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gambar2' multiply defined.
-
-
-LaTeX Warning: Label `fig:gambar4' multiply defined.
-
-
-LaTeX Warning: Label `fig:gambar5' multiply defined.
-
-
-LaTeX Warning: Label `fig:gambar1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gambar1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gambar1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gambar1' multiply defined.
-
-)
-\openout1 = `LA.aux'.
+) (LS.aux)
+\openout1 = `LS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
@@ -722,9 +697,9 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 88.
- (LA.out) (LA.out)
+ (LS.out) (LS.out)
 \@outlinefile=\write5
-\openout5 = `LA.out'.
+\openout5 = `LS.out'.
 
 
 *geometry* driver: auto-detecting
@@ -770,11 +745,11 @@ Package biblatex Warning: Language 'bahasa' not supported.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `LA.bcf'.
+\openout4 = `LS.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'LA.bbl' found.
-(LA.bbl)
+Package biblatex Info: ... file 'LS.bbl' found.
+(LS.bbl)
 Package biblatex Info: Reference section=0 on input line 88.
 Package biblatex Info: Reference segment=0 on input line 88.
  (Cover/Header.tex
@@ -786,7 +761,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=38, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=22, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -796,153 +771,53 @@ Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
 [1
 
 
-{/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex
-<gambar1.png, id=50, 1371.1225pt x 770.88pt>
-File: gambar1.png Graphic file (type png)
-<use gambar1.png>
-Package pdftex.def Info: gambar1.png  used on input line 8.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar2.png, id=51, 1371.1225pt x 770.88pt>
-File: gambar2.png Graphic file (type png)
-<use gambar2.png>
-Package pdftex.def Info: gambar2.png  used on input line 16.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar3.png, id=52, 1371.1225pt x 770.88pt>
-File: gambar3.png Graphic file (type png)
-<use gambar3.png>
-Package pdftex.def Info: gambar3.png  used on input line 23.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar4.png, id=53, 1371.1225pt x 770.88pt>
-File: gambar4.png Graphic file (type png)
-<use gambar4.png>
-Package pdftex.def Info: gambar4.png  used on input line 31.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-
+{/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35     \item S
-                etelah semua konfigurasi selesai, lakukan ping dari laptop k...
-<miot.png, id=54, 200.75pt x 200.75pt>
+l.99 \end{document}
+                   
+<miot.png, id=34, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
-Package pdftex.def Info: miot.png  used on input line 35.
+Package pdftex.def Info: miot.png  used on input line 99.
 (pdftex.def)             Requested size: 238.9995pt x 239.01491pt.
  [1
 
- <./miot.png> <./gambar1.png> <./gambar2.png> <./gambar3.png>]
-<ping.png, id=70, 1371.1225pt x 770.88pt>
-File: ping.png Graphic file (type png)
-<use ping.png>
-Package pdftex.def Info: ping.png  used on input line 39.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-File: gambar1.png Graphic file (type png)
-<use gambar1.png>
-Package pdftex.def Info: gambar1.png  used on input line 51.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-File: gambar2.png Graphic file (type png)
-<use gambar2.png>
-Package pdftex.def Info: gambar2.png  used on input line 59.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-
-
-[2 <./gambar4.png> <./ping.png>]
-<gambar5.png, id=83, 1371.1225pt x 770.88pt>
-File: gambar5.png Graphic file (type png)
-<use gambar5.png>
-Package pdftex.def Info: gambar5.png  used on input line 66.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar6.png, id=84, 1371.1225pt x 770.88pt>
-File: gambar6.png Graphic file (type png)
-<use gambar6.png>
-Package pdftex.def Info: gambar6.png  used on input line 73.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar7.png, id=85, 1371.1225pt x 770.88pt>
-File: gambar7.png Graphic file (type png)
-<use gambar7.png>
-Package pdftex.def Info: gambar7.png  used on input line 80.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-
-
-[3 <./gambar5.png> <./gambar6.png>]
-File: gambar4.png Graphic file (type png)
-<use gambar4.png>
-Package pdftex.def Info: gambar4.png  used on input line 88.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-File: ping.png Graphic file (type png)
-<use ping.png>
-Package pdftex.def Info: ping.png  used on input line 96.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-
-Overfull \hbox (15.19351pt too wide) in paragraph at lines 104--115
-\T1/qhv/m/n/10.95 dinamis IPv6 digunakan OSPF sebagai protokol routing yang dapat menyesuaikan diri dengan perubahan
- []
-
-
-
-[4 <./gambar7.png>]
-Overfull \hbox (7.858pt too wide) in paragraph at lines 120--127
-\T1/qhv/m/n/10.95 dinamis IPv6 dapat dilakukan dengan baik pada jaringan komputer. Routing statis IPv6 dapat digunakan
- []
-
-<gambar8.jpeg, id=108, 4015.0pt x 2260.445pt>
-File: gambar8.jpeg Graphic file (type jpg)
-<use gambar8.jpeg>
-Package pdftex.def Info: gambar8.jpeg  used on input line 131.
-(pdftex.def)             Requested size: 241.84843pt x 136.13821pt.
-<gambar9.jpeg, id=109, 2260.445pt x 4015.0pt>
-File: gambar9.jpeg Graphic file (type jpg)
-<use gambar9.jpeg>
-Package pdftex.def Info: gambar9.jpeg  used on input line 138.
-(pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
-
-
-[5 <./gambar8.jpeg>]
-<gambar10.jpeg, id=115, 2260.445pt x 4015.0pt>
-File: gambar10.jpeg Graphic file (type jpg)
-<use gambar10.jpeg>
-Package pdftex.def Info: gambar10.jpeg  used on input line 145.
-(pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
-<gambar11.jpeg, id=116, 2260.445pt x 4015.0pt>
-File: gambar11.jpeg Graphic file (type jpg)
-<use gambar11.jpeg>
-Package pdftex.def Info: gambar11.jpeg  used on input line 151.
-(pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
-
-
-[6 <./gambar9.jpeg>]
-
-[7 <./gambar10.jpeg>])
-
-[8 <./gambar11.jpeg>] (LA.aux)
+ <./miot.png>] (LS.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `LA.out' has not changed.
-(rerunfilecheck)             Checksum: 9718594D405420A153C914D40CF6C492;1164.
-Package logreq Info: Writing requests to 'LA.run.xml'.
-\openout1 = `LA.run.xml'.
+Package rerunfilecheck Info: File `LS.out' has not changed.
+(rerunfilecheck)             Checksum: F646F2247E20B5F6EF92810BDD37164F;474.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                LS
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'LS.run.xml'.
+\openout1 = `LS.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21646 strings out of 475832
- 376089 string characters out of 5778116
- 1197108 words of memory out of 5000000
- 43966 multiletter control sequences out of 15000+600000
- 604084 words of font info for 63 fonts, out of 8000000 for 9000
+ 21503 strings out of 475832
+ 373864 string characters out of 5778116
+ 1194563 words of memory out of 5000000
+ 43860 multiletter control sequences out of 15000+600000
+ 601087 words of font info for 62 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,12n,81p,1314b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,1318b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (9 pages, 3454622 bytes).
+Output written on LS.pdf (2 pages, 138309 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
