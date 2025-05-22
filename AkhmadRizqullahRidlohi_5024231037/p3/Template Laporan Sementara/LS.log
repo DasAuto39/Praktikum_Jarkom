@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  21 MAY 2025 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  21 MAY 2025 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -771,7 +771,27 @@ Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
 [1
 
 
-{/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex)
+{/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex
+Overfull \hbox (6.52122pt too wide) in paragraph at lines 3--6
+\T1/qhv/m/n/10.95 Praktikum ini bertujuan untuk memberikan pemahaman tentang Wirelless LAN dan ubiquitous sehingga
+ []
+
+
+Overfull \hbox (7.03696pt too wide) in paragraph at lines 3--6
+\T1/qhv/m/n/10.95 sebagai mahasiswa dapat memahami dan mengimplementasikan teknologi ini dalam kehidupan sehari-
+ []
+
+
+Overfull \hbox (7.39731pt too wide) in paragraph at lines 8--18
+\T1/qhv/m/n/10.95 Terdapat banyak standar Wi-Fi yang digunakan contohnya IEEE 802.11a, IEEE 802.11b, IEEE 802.11g,
+ []
+
+
+Overfull \hbox (3.78374pt too wide) in paragraph at lines 8--18
+\T1/qhv/m/n/10.95 access point. SSID adalah nama dari jaringan wireless yang digunakan untuk mengidentifikasi jaringan
+ []
+
+)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -809,13 +829,13 @@ Package logreq Info: Writing requests to 'LS.run.xml'.
 Here is how much of TeX's memory you used:
  21503 strings out of 475832
  373864 string characters out of 5778116
- 1194563 words of memory out of 5000000
+ 1197564 words of memory out of 5000000
  43860 multiletter control sequences out of 15000+600000
  601087 words of font info for 62 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,12n,81p,1318b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LS.pdf (2 pages, 138309 bytes).
+Output written on LS.pdf (2 pages, 141095 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
