@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  23 MAY 2025 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  23 MAY 2025 09:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,7 +645,56 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 88.
 (/home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-) (LA.aux)
+) (LA.aux
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar2' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar4' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar5' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gambar1' multiply defined.
+
+)
 \openout1 = `LA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -697,6 +746,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 88.
+ (LA.out) (LA.out)
 \@outlinefile=\write5
 \openout5 = `LA.out'.
 
@@ -760,7 +810,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=6, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=38, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -771,22 +821,22 @@ Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
 
 
 {/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex
-<gambar1.png, id=18, 1371.1225pt x 770.88pt>
+<gambar1.png, id=50, 1371.1225pt x 770.88pt>
 File: gambar1.png Graphic file (type png)
 <use gambar1.png>
 Package pdftex.def Info: gambar1.png  used on input line 8.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar2.png, id=19, 1371.1225pt x 770.88pt>
+<gambar2.png, id=51, 1371.1225pt x 770.88pt>
 File: gambar2.png Graphic file (type png)
 <use gambar2.png>
 Package pdftex.def Info: gambar2.png  used on input line 16.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar3.png, id=20, 1371.1225pt x 770.88pt>
+<gambar3.png, id=52, 1371.1225pt x 770.88pt>
 File: gambar3.png Graphic file (type png)
 <use gambar3.png>
 Package pdftex.def Info: gambar3.png  used on input line 23.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar4.png, id=21, 1371.1225pt x 770.88pt>
+<gambar4.png, id=53, 1371.1225pt x 770.88pt>
 File: gambar4.png Graphic file (type png)
 <use gambar4.png>
 Package pdftex.def Info: gambar4.png  used on input line 31.
@@ -799,7 +849,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.35     \item S
                 etelah semua konfigurasi selesai, lakukan ping dari laptop k...
-<miot.png, id=22, 200.75pt x 200.75pt>
+<miot.png, id=54, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
 Package pdftex.def Info: miot.png  used on input line 35.
@@ -807,7 +857,7 @@ Package pdftex.def Info: miot.png  used on input line 35.
  [1
 
  <./miot.png> <./gambar1.png> <./gambar2.png> <./gambar3.png>]
-<ping.png, id=40, 1371.1225pt x 770.88pt>
+<ping.png, id=70, 1371.1225pt x 770.88pt>
 File: ping.png Graphic file (type png)
 <use ping.png>
 Package pdftex.def Info: ping.png  used on input line 39.
@@ -823,17 +873,17 @@ Package pdftex.def Info: gambar2.png  used on input line 59.
 
 
 [2 <./gambar4.png> <./ping.png>]
-<gambar5.png, id=54, 1371.1225pt x 770.88pt>
+<gambar5.png, id=83, 1371.1225pt x 770.88pt>
 File: gambar5.png Graphic file (type png)
 <use gambar5.png>
 Package pdftex.def Info: gambar5.png  used on input line 66.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar6.png, id=55, 1371.1225pt x 770.88pt>
+<gambar6.png, id=84, 1371.1225pt x 770.88pt>
 File: gambar6.png Graphic file (type png)
 <use gambar6.png>
 Package pdftex.def Info: gambar6.png  used on input line 73.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar7.png, id=56, 1371.1225pt x 770.88pt>
+<gambar7.png, id=85, 1371.1225pt x 770.88pt>
 File: gambar7.png Graphic file (type png)
 <use gambar7.png>
 Package pdftex.def Info: gambar7.png  used on input line 80.
@@ -857,435 +907,113 @@ Overfull \hbox (15.19351pt too wide) in paragraph at lines 104--115
 
 
 [4 <./gambar7.png>]
-<static.png, id=80, 1371.1225pt x 770.88pt>
+<static.png, id=108, 1371.1225pt x 770.88pt>
 File: static.png Graphic file (type png)
 <use static.png>
 Package pdftex.def Info: static.png  used on input line 122.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<router1static.png, id=81, 1371.1225pt x 770.88pt>
+<router1static.png, id=109, 1371.1225pt x 770.88pt>
 File: router1static.png Graphic file (type png)
 <use router1static.png>
 Package pdftex.def Info: router1static.png  used on input line 128.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<router2static.png, id=82, 1371.1225pt x 770.88pt>
+<router2static.png, id=110, 1371.1225pt x 770.88pt>
 File: router2static.png Graphic file (type png)
 <use router2static.png>
 Package pdftex.def Info: router2static.png  used on input line 134.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<pc0static.png, id=111, 1371.1225pt x 770.88pt>
+File: pc0static.png Graphic file (type png)
+<use pc0static.png>
+Package pdftex.def Info: pc0static.png  used on input line 140.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
-
-LaTeX Warning: File `pc0static.png.png' not found on input line 140.
-
-
-P1/crimping.tex:140: Package pdftex.def Error: File `pc0static.png.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 ...s[width=0.5\linewidth]{pc0static.png.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 140.
-(/home/goated/.miktex/texmfs/install/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
 
 [5 <./static.png> <./router1static.png>]
-<pc1static.png, id=93, 1371.1225pt x 770.88pt>
+<pc1static.png, id=121, 1371.1225pt x 770.88pt>
 File: pc1static.png Graphic file (type png)
 <use pc1static.png>
 Package pdftex.def Info: pc1static.png  used on input line 146.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<dynamic.png, id=94, 1371.1225pt x 770.88pt>
+<dynamic.png, id=122, 1371.1225pt x 770.88pt>
 File: dynamic.png Graphic file (type png)
 <use dynamic.png>
 Package pdftex.def Info: dynamic.png  used on input line 153.
-(pdftex.def)             Requested size: 228.1609pt x 128.27187pt.
-
-
-P1/crimping.tex:154: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154         \caption
-                      {Routing Dinamis IPv6}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-P1/crimping.tex:156: Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.156     \end{figure}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-
-[6 <./router2static.png> <./pc1static.png>]
-P1/crimping.tex:156: Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.156     \end{figure}
-                      
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-P1/crimping.tex:156: LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156     \end{figure}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-P1/crimping.tex:156: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.156     \end{figure}
-                      
-Things are pretty mixed up, but I think the worst is over.
-
-
-LaTeX Warning: File `router1dynamic.png' not found on input line 159.
-
-
-P1/crimping.tex:159: Package pdftex.def Error: File `router1dynamic.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 ...[width=0.5\linewidth]{router1dynamic.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `router2dynamic.png' not found on input line 165.
-
-
-P1/crimping.tex:165: Package pdftex.def Error: File `router2dynamic.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 ...[width=0.5\linewidth]{router2dynamic.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<pc0dynamic.png, id=106, 1371.1225pt x 770.88pt>
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<pc0dynamic.png, id=123, 1371.1225pt x 770.88pt>
 File: pc0dynamic.png Graphic file (type png)
 <use pc0dynamic.png>
-Package pdftex.def Info: pc0dynamic.png  used on input line 171.
+Package pdftex.def Info: pc0dynamic.png  used on input line 159.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<pc1dynamic.png, id=107, 1371.1225pt x 770.88pt>
+<pc1dynamic.png, id=124, 1371.1225pt x 770.88pt>
 File: pc1dynamic.png Graphic file (type png)
 <use pc1dynamic.png>
-Package pdftex.def Info: pc1dynamic.png  used on input line 177.
+Package pdftex.def Info: pc1dynamic.png  used on input line 165.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
 
-[7 <./dynamic.png>]
-P1/crimping.tex:182: Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.182 \end{enumerate}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.182 \end{enumerate}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-P1/crimping.tex:182: Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.182 \end{enumerate}
-                     
-I'm forgetting what you said and using zero instead.
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.182 \end{enumerate}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.182 \end{enumerate}
-                     
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.182 \end{enumerate}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-P1/crimping.tex:182: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.182 \end{enumerate}
-                     
-I'm forgetting what you said and using zero instead.
-
-
-P1/crimping.tex:182: LaTeX Error: \begin{document} ended by \end{enumerate}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.182 \end{enumerate}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-P1/crimping.tex:182: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.182 \end{enumerate}
-                     
-Things are pretty mixed up, but I think the worst is over.
-
-
-Overfull \hbox (7.858pt too wide) in paragraph at lines 186--193
+[6 <./router2static.png> <./pc0static.png> <./pc1static.png> <./dynamic.png>]
+Overfull \hbox (7.858pt too wide) in paragraph at lines 174--181
 \T1/qhv/m/n/10.95 dinamis IPv6 dapat dilakukan dengan baik pada jaringan komputer. Routing statis IPv6 dapat digunakan
  []
 
-<gambar8.jpeg, id=116, 4015.0pt x 2260.445pt>
+<gambar8.jpeg, id=139, 4015.0pt x 2260.445pt>
 File: gambar8.jpeg Graphic file (type jpg)
 <use gambar8.jpeg>
-Package pdftex.def Info: gambar8.jpeg  used on input line 197.
+Package pdftex.def Info: gambar8.jpeg  used on input line 185.
 (pdftex.def)             Requested size: 241.84843pt x 136.13821pt.
 
 
-[8 <./pc0dynamic.png> <./pc1dynamic.png>]
-<gambar9.jpeg, id=126, 2260.445pt x 4015.0pt>
+[7 <./pc0dynamic.png> <./pc1dynamic.png>]
+<gambar9.jpeg, id=148, 2260.445pt x 4015.0pt>
 File: gambar9.jpeg Graphic file (type jpg)
 <use gambar9.jpeg>
-Package pdftex.def Info: gambar9.jpeg  used on input line 204.
+Package pdftex.def Info: gambar9.jpeg  used on input line 192.
 (pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
-<gambar10.jpeg, id=127, 2260.445pt x 4015.0pt>
+<gambar10.jpeg, id=149, 2260.445pt x 4015.0pt>
 File: gambar10.jpeg Graphic file (type jpg)
 <use gambar10.jpeg>
-Package pdftex.def Info: gambar10.jpeg  used on input line 211.
+Package pdftex.def Info: gambar10.jpeg  used on input line 199.
 (pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
-<gambar11.jpeg, id=128, 2260.445pt x 4015.0pt>
+
+
+[8 <./gambar8.jpeg> <./gambar9.jpeg>]
+<gambar11.jpeg, id=156, 2260.445pt x 4015.0pt>
 File: gambar11.jpeg Graphic file (type jpg)
 <use gambar11.jpeg>
-Package pdftex.def Info: gambar11.jpeg  used on input line 217.
+Package pdftex.def Info: gambar11.jpeg  used on input line 208.
 (pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
 
 
-[9 <./gambar8.jpeg> <./gambar9.jpeg>]
+[9 <./gambar10.jpeg>])
 
-[10 <./gambar10.jpeg>])
-
-Package transparent Warning: Rerun to get transparencies right.
-
-
-
-[11 <./gambar11.jpeg>] (LA.aux)
+[10 <./gambar11.jpeg>] (LA.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `LA.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `LA.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9718594D405420A153C914D40CF6C492;1164.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                LA
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `LA.out' has not changed.
+(rerunfilecheck)             Checksum: 9718594D405420A153C914D40CF6C492;1164.
 Package logreq Info: Writing requests to 'LA.run.xml'.
 \openout1 = `LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21810 strings out of 475832
- 380131 string characters out of 5778116
- 1196389 words of memory out of 5000000
- 44116 multiletter control sequences out of 15000+600000
- 604398 words of font info for 64 fonts, out of 8000000 for 9000
+ 21714 strings out of 475832
+ 377399 string characters out of 5778116
+ 1197111 words of memory out of 5000000
+ 44022 multiletter control sequences out of 15000+600000
+ 604084 words of font info for 63 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,12n,81p,1314b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (12 pages, 4104636 bytes).
+ 75i,12n,81p,1314b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
+Output written on LA.pdf (11 pages, 4185465 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
