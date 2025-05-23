@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  22 MAY 2025 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  23 MAY 2025 09:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -862,20 +862,57 @@ File: static.png Graphic file (type png)
 <use static.png>
 Package pdftex.def Info: static.png  used on input line 122.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<dynamic.png, id=81, 1371.1225pt x 770.88pt>
+<router1static.png, id=81, 1371.1225pt x 770.88pt>
+File: router1static.png Graphic file (type png)
+<use router1static.png>
+Package pdftex.def Info: router1static.png  used on input line 128.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<router2static.png, id=82, 1371.1225pt x 770.88pt>
+File: router2static.png Graphic file (type png)
+<use router2static.png>
+Package pdftex.def Info: router2static.png  used on input line 134.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+
+
+LaTeX Warning: File `pc0static.png.png' not found on input line 140.
+
+
+P1/crimping.tex:140: Package pdftex.def Error: File `pc0static.png.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 ...s[width=0.5\linewidth]{pc0static.png.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 140.
+(/home/goated/.miktex/texmfs/install/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+
+[5 <./static.png> <./router1static.png>]
+<pc1static.png, id=93, 1371.1225pt x 770.88pt>
+File: pc1static.png Graphic file (type png)
+<use pc1static.png>
+Package pdftex.def Info: pc1static.png  used on input line 146.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<dynamic.png, id=94, 1371.1225pt x 770.88pt>
 File: dynamic.png Graphic file (type png)
 <use dynamic.png>
-Package pdftex.def Info: dynamic.png  used on input line 129.
+Package pdftex.def Info: dynamic.png  used on input line 153.
 (pdftex.def)             Requested size: 228.1609pt x 128.27187pt.
 
 
-P1/crimping.tex:130: Package caption Error: \caption outside float.
+P1/crimping.tex:154: Package caption Error: \caption outside float.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130         \caption
+l.154         \caption
                       {Routing Dinamis IPv6}
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -883,10 +920,10 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-P1/crimping.tex:132: Extra }, or forgotten \endgroup.
+P1/crimping.tex:156: Extra }, or forgotten \endgroup.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.132     \end{figure}
+l.156     \end{figure}
                       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -894,38 +931,84 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-P1/crimping.tex:132: Too many }'s.
+
+
+[6 <./router2static.png> <./pc1static.png>]
+P1/crimping.tex:156: Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.132     \end{figure}
+l.156     \end{figure}
                       
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-P1/crimping.tex:132: LaTeX Error: \begin{document} ended by \end{figure}.
+P1/crimping.tex:156: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132     \end{figure}
+l.156     \end{figure}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-P1/crimping.tex:132: Extra \endgroup.
+P1/crimping.tex:156: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.132     \end{figure}
+l.156     \end{figure}
                       
 Things are pretty mixed up, but I think the worst is over.
 
-P1/crimping.tex:133: Undefined control sequence.
+
+LaTeX Warning: File `router1dynamic.png' not found on input line 159.
+
+
+P1/crimping.tex:159: Package pdftex.def Error: File `router1dynamic.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...[width=0.5\linewidth]{router1dynamic.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `router2dynamic.png' not found on input line 165.
+
+
+P1/crimping.tex:165: Package pdftex.def Error: File `router2dynamic.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...[width=0.5\linewidth]{router2dynamic.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<pc0dynamic.png, id=106, 1371.1225pt x 770.88pt>
+File: pc0dynamic.png Graphic file (type png)
+<use pc0dynamic.png>
+Package pdftex.def Info: pc0dynamic.png  used on input line 171.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<pc1dynamic.png, id=107, 1371.1225pt x 770.88pt>
+File: pc1dynamic.png Graphic file (type png)
+<use pc1dynamic.png>
+Package pdftex.def Info: pc1dynamic.png  used on input line 177.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+
+
+[7 <./dynamic.png>]
+P1/crimping.tex:182: Undefined control sequence.
 \enit@endenumerate ->\enit@after 
                                  \endlist \ifx \enit@series \relax \else \if...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -933,10 +1016,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@endenumerate ...\else \ifnum \enit@resuming 
                                                   =\@ne \enit@setresumekeys ...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -944,19 +1027,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Missing number, treated as zero.
+P1/crimping.tex:182: Missing number, treated as zero.
 <to be read again> 
                    =
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -964,10 +1047,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -975,19 +1058,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Missing number, treated as zero.
+P1/crimping.tex:182: Missing number, treated as zero.
 <to be read again> 
                    =
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 <argument> enit@resume@series@\enit@series 
                                            
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -995,10 +1078,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1006,10 +1089,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1017,17 +1100,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: You can't use `\relax' after \the.
+P1/crimping.tex:182: You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 I'm forgetting what you said and using zero instead.
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@endenumerate ...t \fi \ifnum \enit@resuming 
                                                   =\thr@@ \enit@setresumekey...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1035,19 +1118,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Missing number, treated as zero.
+P1/crimping.tex:182: Missing number, treated as zero.
 <to be read again> 
                    =
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...xpandafter {\enit@savekeys 
                                                   }\xdef \enit@afterlist {#2...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1055,10 +1138,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...it@toks }\ifnum \enit@type 
                                                   =\z@ #3\def \enit@noexcs {...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1066,19 +1149,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Missing number, treated as zero.
+P1/crimping.tex:182: Missing number, treated as zero.
 <to be read again> 
                    =
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...me@#1}{\csname c@\@listctr 
                                                   \endcsname \the \csname c@...
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1086,10 +1169,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: Undefined control sequence.
+P1/crimping.tex:182: Undefined control sequence.
 \enit@setresumekeys ...e \the \csname c@\@listctr 
                                                   \endcsname }\fi }
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1097,72 +1180,72 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-P1/crimping.tex:133: You can't use `\relax' after \the.
+P1/crimping.tex:182: You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 I'm forgetting what you said and using zero instead.
 
 
-P1/crimping.tex:133: LaTeX Error: \begin{document} ended by \end{enumerate}.
+P1/crimping.tex:182: LaTeX Error: \begin{document} ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-P1/crimping.tex:133: Extra \endgroup.
+P1/crimping.tex:182: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.133 \end{enumerate}
+l.182 \end{enumerate}
                      
 Things are pretty mixed up, but I think the worst is over.
 
 
-Overfull \hbox (7.858pt too wide) in paragraph at lines 137--144
+Overfull \hbox (7.858pt too wide) in paragraph at lines 186--193
 \T1/qhv/m/n/10.95 dinamis IPv6 dapat dilakukan dengan baik pada jaringan komputer. Routing statis IPv6 dapat digunakan
  []
 
-<gambar8.jpeg, id=82, 4015.0pt x 2260.445pt>
+<gambar8.jpeg, id=116, 4015.0pt x 2260.445pt>
 File: gambar8.jpeg Graphic file (type jpg)
 <use gambar8.jpeg>
-Package pdftex.def Info: gambar8.jpeg  used on input line 148.
+Package pdftex.def Info: gambar8.jpeg  used on input line 197.
 (pdftex.def)             Requested size: 241.84843pt x 136.13821pt.
 
 
-[5 <./static.png> <./dynamic.png>]
-<gambar9.jpeg, id=94, 2260.445pt x 4015.0pt>
+[8 <./pc0dynamic.png> <./pc1dynamic.png>]
+<gambar9.jpeg, id=126, 2260.445pt x 4015.0pt>
 File: gambar9.jpeg Graphic file (type jpg)
 <use gambar9.jpeg>
-Package pdftex.def Info: gambar9.jpeg  used on input line 155.
+Package pdftex.def Info: gambar9.jpeg  used on input line 204.
 (pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
-<gambar10.jpeg, id=95, 2260.445pt x 4015.0pt>
+<gambar10.jpeg, id=127, 2260.445pt x 4015.0pt>
 File: gambar10.jpeg Graphic file (type jpg)
 <use gambar10.jpeg>
-Package pdftex.def Info: gambar10.jpeg  used on input line 162.
+Package pdftex.def Info: gambar10.jpeg  used on input line 211.
 (pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
-<gambar11.jpeg, id=96, 2260.445pt x 4015.0pt>
+<gambar11.jpeg, id=128, 2260.445pt x 4015.0pt>
 File: gambar11.jpeg Graphic file (type jpg)
 <use gambar11.jpeg>
-Package pdftex.def Info: gambar11.jpeg  used on input line 168.
+Package pdftex.def Info: gambar11.jpeg  used on input line 217.
 (pdftex.def)             Requested size: 241.84843pt x 429.52112pt.
 
 
-[6 <./gambar8.jpeg> <./gambar9.jpeg>]
+[9 <./gambar8.jpeg> <./gambar9.jpeg>]
 
-[7 <./gambar10.jpeg>])
+[10 <./gambar10.jpeg>])
 
 Package transparent Warning: Rerun to get transparencies right.
 
 
 
-[8 <./gambar11.jpeg>] (LA.aux)
+[11 <./gambar11.jpeg>] (LA.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -1192,17 +1275,17 @@ Package logreq Info: Writing requests to 'LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21652 strings out of 475832
- 376041 string characters out of 5778116
+ 21810 strings out of 475832
+ 380131 string characters out of 5778116
  1196389 words of memory out of 5000000
- 43973 multiletter control sequences out of 15000+600000
- 604084 words of font info for 63 fonts, out of 8000000 for 9000
+ 44116 multiletter control sequences out of 15000+600000
+ 604398 words of font info for 64 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,12n,81p,1314b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on LA.pdf (9 pages, 3609265 bytes).
+ 75i,12n,81p,1314b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb>
+Output written on LA.pdf (12 pages, 4104636 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
