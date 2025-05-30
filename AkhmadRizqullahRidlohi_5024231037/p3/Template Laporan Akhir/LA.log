@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  29 MAY 2025 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  29 MAY 2025 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -697,7 +697,6 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 88.
- (LA.out) (LA.out)
 \@outlinefile=\write5
 \openout5 = `LA.out'.
 
@@ -761,7 +760,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=42, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=6, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -772,7 +771,7 @@ Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
 
 
 {/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex
-<gambar1.png, id=54, 1371.1225pt x 770.88pt>
+<gambar1.png, id=18, 1371.1225pt x 770.88pt>
 File: gambar1.png Graphic file (type png)
 <use gambar1.png>
 Package pdftex.def Info: gambar1.png  used on input line 9.
@@ -796,7 +795,7 @@ l.17 ...graphics[width=0.5\linewidth]{gambar2.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<gambar3a.png, id=55, 1371.1225pt x 770.88pt>
+<gambar3a.png, id=19, 1371.1225pt x 770.88pt>
 File: gambar3a.png Graphic file (type png)
 <use gambar3a.png>
 Package pdftex.def Info: gambar3a.png  used on input line 25.
@@ -809,7 +808,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.29 
      
-<miot.png, id=56, 200.75pt x 200.75pt>
+<miot.png, id=20, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
 Package pdftex.def Info: miot.png  used on input line 29.
@@ -817,17 +816,17 @@ Package pdftex.def Info: miot.png  used on input line 29.
  [1
 
  <./miot.png> <./gambar1.png>]
-<gambar3.png, id=69, 1371.1225pt x 770.88pt>
+<gambar3.png, id=35, 1371.1225pt x 770.88pt>
 File: gambar3.png Graphic file (type png)
 <use gambar3.png>
 Package pdftex.def Info: gambar3.png  used on input line 33.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar5.png, id=70, 1371.1225pt x 770.88pt>
+<gambar5.png, id=36, 1371.1225pt x 770.88pt>
 File: gambar5.png Graphic file (type png)
 <use gambar5.png>
 Package pdftex.def Info: gambar5.png  used on input line 36.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<ping1.png, id=71, 1371.1225pt x 770.88pt>
+<ping1.png, id=37, 1371.1225pt x 770.88pt>
 File: ping1.png Graphic file (type png)
 <use ping1.png>
 Package pdftex.def Info: ping1.png  used on input line 44.
@@ -860,7 +859,7 @@ Overfull \hbox (19.97743pt too wide) in paragraph at lines 63--69
 []\T1/qhv/m/n/10.95 Aktifkan wlan1 pada Router A, ubah mode menjadi \T1/qhv/b/n/10.95 AP bridge \T1/qhv/m/n/10.95 dengan SSID \T1/cmtt/m/n/10.95 PointToMultiPoint_16\T1/qhv/m/n/10.95 . 
  []
 
-<gambar3ma.png, id=86, 1371.1225pt x 770.88pt>
+<gambar3ma.png, id=52, 1371.1225pt x 770.88pt>
 File: gambar3ma.png Graphic file (type png)
 <use gambar3ma.png>
 Package pdftex.def Info: gambar3ma.png  used on input line 74.
@@ -868,12 +867,12 @@ Package pdftex.def Info: gambar3ma.png  used on input line 74.
 
 
 [3]
-<gambar3m.png, id=97, 1371.1225pt x 770.88pt>
+<gambar3m.png, id=64, 1371.1225pt x 770.88pt>
 File: gambar3m.png Graphic file (type png)
 <use gambar3m.png>
 Package pdftex.def Info: gambar3m.png  used on input line 82.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar4.png, id=98, 1371.1225pt x 770.88pt>
+<gambar4.png, id=65, 1371.1225pt x 770.88pt>
 File: gambar4.png Graphic file (type png)
 <use gambar4.png>
 Package pdftex.def Info: gambar4.png  used on input line 90.
@@ -889,7 +888,7 @@ File: gambar5.png Graphic file (type png)
 <use gambar5.png>
 Package pdftex.def Info: gambar5.png  used on input line 106.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<ping2.png, id=112, 1371.1225pt x 770.88pt>
+<ping2.png, id=79, 1371.1225pt x 770.88pt>
 File: ping2.png Graphic file (type png)
 <use ping2.png>
 Package pdftex.def Info: ping2.png  used on input line 114.
@@ -934,7 +933,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 [6]
-<gambar3w.png, id=134, 1371.1225pt x 770.88pt>
+<gambar3w.png, id=102, 1371.1225pt x 770.88pt>
 File: gambar3w.png Graphic file (type png)
 <use gambar3w.png>
 Package pdftex.def Info: gambar3w.png  used on input line 151.
@@ -954,7 +953,7 @@ File: gambar5.png Graphic file (type png)
 <use gambar5.png>
 Package pdftex.def Info: gambar5.png  used on input line 175.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<ping3.png, id=146, 1371.1225pt x 770.88pt>
+<ping3.png, id=114, 1371.1225pt x 770.88pt>
 File: ping3.png Graphic file (type png)
 <use ping3.png>
 Package pdftex.def Info: ping3.png  used on input line 183.
@@ -978,29 +977,51 @@ Overfull \hbox (22.1096pt too wide) in paragraph at lines 226--234
 
 )
 
+Package transparent Warning: Rerun to get transparencies right.
+
+
+
 [9] (LA.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
-Package rerunfilecheck Info: File `LA.out' has not changed.
-(rerunfilecheck)             Checksum: 841AEB5D3FA6B86F99D56B5D01BC97D0;1365.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `LA.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `LA.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  841AEB5D3FA6B86F99D56B5D01BC97D0;1365.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                LA
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'LA.run.xml'.
 \openout1 = `LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21814 strings out of 475832
- 379782 string characters out of 5778116
- 1199149 words of memory out of 5000000
- 44112 multiletter control sequences out of 15000+600000
+ 21798 strings out of 475832
+ 379379 string characters out of 5778116
+ 1197386 words of memory out of 5000000
+ 44100 multiletter control sequences out of 15000+600000
  604398 words of font info for 64 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  75i,12n,81p,1314b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on LA.pdf (10 pages, 3038187 bytes).
+Output written on LA.pdf (10 pages, 3034844 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  64 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
