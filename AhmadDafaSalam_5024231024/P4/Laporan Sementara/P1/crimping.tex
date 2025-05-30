@@ -1,0 +1,38 @@
+\section{Pendahuluan}
+\subsection{Latar Belakang}
+Praktikum ini bertujuan untuk mempelajari cara kerja firewall, NAT, dan connection tracking dalam pengelolaan dan pengamanan jaringan. Ketiga teknologi ini penting untuk melindungi jaringan dari akses tidak sah, mengatur lalu lintas data, dan memungkinkan banyak perangkat berbagi satu IP publik secara efisien.
+
+
+\subsection{Dasar Teori}
+Firewall adalah sistem keamanan jaringan yang mengontrol lalu lintas data masuk dan keluar berdasarkan aturan tertentu. Firewall dapat diimplementasikan dalam bentuk perangkat keras (hardware) maupun perangkat lunak (software), dan terbagi menjadi beberapa jenis, seperti packet filtering, stateful inspection, application layer firewall, hingga next generation firewall. Setiap jenis memiliki cara kerja dan tingkat pengamanan yang berbeda, mulai dari menyaring berdasarkan alamat IP hingga melakukan inspeksi terhadap isi data secara mendalam (deep packet inspection).
+
+Network Address Translation (NAT) adalah metode untuk mengubah alamat IP sumber dalam paket data ketika melewati router. NAT biasanya digunakan untuk mengatasi keterbatasan jumlah IP publik dengan memungkinkan beberapa perangkat dalam jaringan lokal berbagi satu alamat IP publik. Ada beberapa jenis NAT, antara lain Static NAT, Dynamic NAT, dan Port Address Translation (PAT), yang masing-masing memiliki kegunaan tersendiri tergantung kebutuhan jaringan.
+
+Connection Tracking atau pelacakan koneksi adalah fitur yang mencatat dan memantau status koneksi jaringan. Dengan mencatat informasi seperti alamat IP sumber dan tujuan, port, protokol, serta status koneksi, sistem dapat mengenali apakah suatu paket merupakan bagian dari koneksi yang sah. Connection tracking sangat berguna untuk firewall berbasis status (stateful firewall) dan dalam penerapan NAT, karena membantu mengidentifikasi dan mengelola lalu lintas data dengan lebih akurat.
+
+\section{Tugas Pendahuluan}
+\begin{enumerate}
+    \item \textbf{Jika kamu ingin mengakses web server lokal (IP: 192.168.1.10, port 80) dari jaringan luar, konfigurasi NAT apa yang perlu kamu buat?}
+
+    Konfigurasi NAT yang perlu dibuat adalah \textit{Static NAT} atau \textit{Port Address Translation (PAT)}. Static NAT digunakan jika satu IP publik dipetakan langsung ke satu IP privat, cocok untuk server seperti web server. Dalam hal ini, IP publik akan memetakan port 80 langsung ke IP lokal 192.168.1.10 port 80, sehingga server lokal dapat diakses dari luar jaringan.
+
+    \textbf{Referensi:} Pada bagian \textit{1.2.1 Jenis-Jenis NAT}.
+
+    \item \textbf{Menurutmu, mana yang lebih penting diterapkan terlebih dahulu di jaringan: NAT atau Firewall? Jelaskan alasanmu.}
+
+    Firewall lebih penting diterapkan terlebih dahulu karena bertugas sebagai pengawas dan penjaga akses lalu lintas jaringan. Firewall akan memeriksa apakah paket data yang masuk atau keluar diperbolehkan sesuai dengan aturan. Sementara itu, NAT hanya mengatur penerjemahan alamat IP tanpa fitur keamanan. Oleh karena itu, firewall menjadi komponen utama dalam menjaga keamanan jaringan.
+
+    \textbf{Referensi:} Pada bagian \textit{1.1 Apa itu Firewall?} dan \textit{1.1.2 Cara Kerja Firewall}.
+
+    \item \textbf{Apa dampak negatif jika router tidak diberi filter firewall sama sekali?}
+
+    Jika router tidak memiliki filter firewall, maka semua lalu lintas akan diizinkan masuk dan keluar tanpa kontrol. Hal ini berbahaya karena:
+    \begin{itemize}
+        \item Router tidak bisa membedakan antara lalu lintas sah dan berbahaya.
+        \item Potensi serangan dari luar seperti malware dan hacker meningkat.
+        \item Tidak ada mekanisme pemblokiran otomatis untuk koneksi tidak sah.
+    \end{itemize}
+    Ini membuat jaringan menjadi sangat rentan terhadap gangguan keamanan.
+
+    \textbf{Referensi:} Pada bagian \textit{1.1 Apa itu Firewall?} dan \textit{1.1.2 Cara Kerja Firewall}.
+\end{enumerate}
