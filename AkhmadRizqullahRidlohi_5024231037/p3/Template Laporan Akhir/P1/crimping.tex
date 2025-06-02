@@ -12,12 +12,6 @@
     \end{figure}
 
     \item Aktifkan interface wireless wlan1. Masuk ke menu Wireless > WiFi Interfaces, klik interface wlan1, dan tekan ikon panah biru untuk mengaktifkannya. Ganti mode menjadi \textbf{bridge} dengan SSID \texttt{PointToPoint\_16}.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\linewidth]{gambar2.png}
-        \caption{Mengaktifkan Interface Wireless pada Router A}
-        \label{fig:aktif-wlan-a}
-    \end{figure}
 
     \item Untuk Router B, aktifkan interface wlan1 dan ubah mode menjadi \textbf{station}.
     \begin{figure}[H]
@@ -61,12 +55,7 @@
     \end{figure}
 
     \item Aktifkan wlan1 pada Router A, ubah mode menjadi \textbf{AP bridge} dengan SSID \texttt{PointToMultiPoint\_16}.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\linewidth]{gambar2m.png}
-        \caption{Mengaktifkan Interface Wireless pada Router A (Multipoint)}
-        \label{fig:aktif-wlan-a-multi}
-    \end{figure}
+ 
 
     \item Pada Router B, aktifkan wlan1 dan ubah mode menjadi \textbf{station bridge}.
     \begin{figure}[H]
@@ -130,17 +119,12 @@
     \end{figure}
 
     \item Aktifkan wlan1 pada Router A, ubah mode menjadi \textbf{bridge}, SSID \texttt{WirelessBridge\_16}.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\linewidth]{gambar2w.png}
-        \caption{Aktifkan Wireless Interface Router A (Bridge)}
-        \label{fig:wlan-a-bridge}
-    \end{figure}
+
 
     \item Aktifkan wlan1 Router B, ubah menjadi \textbf{station pseudobridge}.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\linewidth]{gambar3wa.png}
+        \includegraphics[width=0.5\linewidth]{gambar3w.png}
         \caption{Aktifkan Wireless Interface Router B (Bridge)}
         \label{fig:wlan-b-bridge}
     \end{figure}
@@ -148,7 +132,7 @@
     \item Scan dan hubungkan ke SSID \texttt{WirelessBridge\_16}.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\linewidth]{gambar3w.png}
+        \includegraphics[width=0.5\linewidth]{gambar3m.png}
         \caption{Menghubungkan ke SSID Wireless Bridge}
         \label{fig:ssid-bridge}
     \end{figure}
@@ -176,7 +160,7 @@
         \caption{Konfigurasi IP Address Laptop (Bridge)}
         \label{fig:ip-laptop-bridge}
     \end{figure}
-
+    
     \item Uji koneksi via ping.
     \begin{figure}[H]
         \centering
@@ -220,7 +204,30 @@ atau skenario tertentu di mana bridging layer 2 dibutuhkan.
 
 
 \section{Hasil Tugas Modul}
-Bagian ini memuat hasil dari pengerjaan tugas tambahan yang diberikan dalam modul praktikum serta penjelasan dari jawaban tersebut. 
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{topologi.png}
+        \caption{Topologi jaringan}
+        \label{fig:ping-bridge}
+    \end{figure}
+topologi ini menggambar
+penghubungkan tiga gedung berbeda: Gedung Pusat, Gedung Lab, dan Gedung Asrama. Gedung Pusat 
+berfungsi sebagai inti jaringan, di mana sebuah router utama mengelola alamat IP otomatis (DHCP) 
+untuk perangkat lokal dan juga menjadi titik awal koneksi nirkabel ke gedung lainnya yang
+menggunakan Access Point (AP) lokal di Gedung Pusat untuk menyediakan Wi-Fi bagi penggunanya. 
+Untuk menghubungkan Gedung Lab dan Gedung Asrama Blok A ke Gedung Pusat, digunakan AP  
+Point-to-Point (P2P) yang terhubung langsung ke router utama. AP ini bertindak sebagai pemancar 
+sinyal nirkabel jarak jauh, memungkinkan router di Gedung Lab dan Gedung Asrama Blok A untuk 
+terhubung sebagai penerima sinyal.
+
+Di Gedung Lab dan Gedung Asrama Blok A, router lokal mereka bertindak sebagai pusat untuk jaringan 
+masing-masing. Router ini menerima koneksi wirelessl dari Gedung Pusat melalui AP P2P
+. Setelah menerima koneksi, router ini kemudian menyediakan jaringan lokal dengan 
+alokasi IP otomatis (DHCP) dan Wi-Fi melalui AP lokal masing-masing. Perangkat di Blok B dapat langsung berkomunikasi dan 
+mendapatkan IP dari server DHCP di Blok A, seolah-olah mereka berada dalam satu jaringan kabel yang 
+sama, tanpa perlu routing tambahan di antara keduanya.
+
 
 \section{Kesimpulan}
 Berdasarkan hasil percobaan, dapat disimpulkan bahwa setiap konfigurasi jaringan nirkabel memiliki 
@@ -234,5 +241,26 @@ kebutuhan komunikasi, jumlah perangkat, dan skala jaringan yang akan dibangun.
 
 \section{Lampiran}
 \subsection{Dokumentasi saat praktikum}
-Menampilkan foto selama pelaksanaan praktikum. Dokumentasi meliputi foto alat yng digunakan dan foto praktikan saat praktikum. Tujuannya sebagai bukti telah dilakukan kegiatan praktikum.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{gambar5.png}
+        \caption{Routing Statis pada Router A dan B (Bridge)}
+        \label{fig:routing-bridge}
+    \end{figure}
+
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{gambar5.png}
+        \caption{Konfigurasi IP Address Laptop (Bridge)}
+        \label{fig:ip-laptop-bridge}
+    \end{figure}
+    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{ping3.png}
+        \caption{Ping antara Laptop A dan B (Bridge)}
+        \label{fig:ping-bridge}
+    \end{figure}
 

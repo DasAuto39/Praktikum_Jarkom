@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  29 MAY 2025 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2024.10.30)  2 JUN 2025 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -645,7 +645,20 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 88.
 (/home/goated/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-) (LA.aux)
+) (LA.aux
+
+LaTeX Warning: Label `fig:ping-bridge' multiply defined.
+
+
+LaTeX Warning: Label `fig:routing-bridge' multiply defined.
+
+
+LaTeX Warning: Label `fig:ip-laptop-bridge' multiply defined.
+
+
+LaTeX Warning: Label `fig:ping-bridge' multiply defined.
+
+)
 \openout1 = `LA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -697,6 +710,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 88.
+ (LA.out) (LA.out)
 \@outlinefile=\write5
 \openout5 = `LA.out'.
 
@@ -760,7 +774,7 @@ File: Cover/img/miot.png Graphic file (type png)
 <use Cover/img/miot.png>
 Package pdftex.def Info: Cover/img/miot.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
-<Cover/img/footer.png, id=6, 904.88063pt x 89.58469pt>
+<Cover/img/footer.png, id=42, 904.88063pt x 89.58469pt>
 File: Cover/img/footer.png Graphic file (type png)
 <use Cover/img/footer.png>
 Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
@@ -771,7 +785,7 @@ Package pdftex.def Info: Cover/img/footer.png  used on input line 35.
 
 
 {/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/goated/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc} <./Cover/img/logodepart.png> <./Cover/img/miot.png> <./Cover/img/footer.png>]) (P1/crimping.tex
-<gambar1.png, id=18, 1371.1225pt x 770.88pt>
+<gambar1.png, id=54, 1371.1225pt x 770.88pt>
 File: gambar1.png Graphic file (type png)
 <use gambar1.png>
 Package pdftex.def Info: gambar1.png  used on input line 9.
@@ -780,25 +794,20 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 14
  (/home/goated/.miktex/texmfs/install/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-
-LaTeX Warning: File `gambar2.png' not found on input line 17.
-
-
-P1/crimping.tex:17: Package pdftex.def Error: File `gambar2.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...graphics[width=0.5\linewidth]{gambar2.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<gambar3a.png, id=19, 1371.1225pt x 770.88pt>
+<gambar3a.png, id=55, 1371.1225pt x 770.88pt>
 File: gambar3a.png Graphic file (type png)
 <use gambar3a.png>
-Package pdftex.def Info: gambar3a.png  used on input line 25.
+Package pdftex.def Info: gambar3a.png  used on input line 19.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<gambar3.png, id=56, 1371.1225pt x 770.88pt>
+File: gambar3.png Graphic file (type png)
+<use gambar3.png>
+Package pdftex.def Info: gambar3.png  used on input line 27.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<gambar5.png, id=57, 1371.1225pt x 770.88pt>
+File: gambar5.png Graphic file (type png)
+<use gambar5.png>
+Package pdftex.def Info: gambar5.png  used on input line 30.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
 
@@ -806,180 +815,156 @@ Package pdftex.def Info: gambar3a.png  used on input line 25.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 
+l.34 
      
-<miot.png, id=20, 200.75pt x 200.75pt>
+<miot.png, id=58, 200.75pt x 200.75pt>
 File: miot.png Graphic file (type png)
 <use miot.png>
-Package pdftex.def Info: miot.png  used on input line 29.
+Package pdftex.def Info: miot.png  used on input line 34.
 (pdftex.def)             Requested size: 238.9995pt x 239.01491pt.
  [1
 
- <./miot.png> <./gambar1.png>]
-<gambar3.png, id=35, 1371.1225pt x 770.88pt>
-File: gambar3.png Graphic file (type png)
-<use gambar3.png>
-Package pdftex.def Info: gambar3.png  used on input line 33.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar5.png, id=36, 1371.1225pt x 770.88pt>
-File: gambar5.png Graphic file (type png)
-<use gambar5.png>
-Package pdftex.def Info: gambar5.png  used on input line 36.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<ping1.png, id=37, 1371.1225pt x 770.88pt>
+ <./miot.png> <./gambar1.png> <./gambar3a.png>]
+<ping1.png, id=74, 1371.1225pt x 770.88pt>
 File: ping1.png Graphic file (type png)
 <use ping1.png>
-Package pdftex.def Info: ping1.png  used on input line 44.
+Package pdftex.def Info: ping1.png  used on input line 38.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-
-
-[2 <./gambar3a.png> <./gambar3.png> <./gambar5.png> <./ping1.png>]
 File: gambar1.png Graphic file (type png)
 <use gambar1.png>
-Package pdftex.def Info: gambar1.png  used on input line 58.
+Package pdftex.def Info: gambar1.png  used on input line 52.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
 
-LaTeX Warning: File `gambar2m.png' not found on input line 66.
-
-
-P1/crimping.tex:66: Package pdftex.def Error: File `gambar2m.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...raphics[width=0.5\linewidth]{gambar2m.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (19.97743pt too wide) in paragraph at lines 63--69
+[2 <./gambar3.png> <./gambar5.png> <./ping1.png>]
+Overfull \hbox (19.97743pt too wide) in paragraph at lines 57--58
 []\T1/qhv/m/n/10.95 Aktifkan wlan1 pada Router A, ubah mode menjadi \T1/qhv/b/n/10.95 AP bridge \T1/qhv/m/n/10.95 dengan SSID \T1/cmtt/m/n/10.95 PointToMultiPoint_16\T1/qhv/m/n/10.95 . 
  []
 
-<gambar3ma.png, id=52, 1371.1225pt x 770.88pt>
+<gambar3ma.png, id=87, 1371.1225pt x 770.88pt>
 File: gambar3ma.png Graphic file (type png)
 <use gambar3ma.png>
-Package pdftex.def Info: gambar3ma.png  used on input line 74.
+Package pdftex.def Info: gambar3ma.png  used on input line 63.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-
-
-[3]
-<gambar3m.png, id=64, 1371.1225pt x 770.88pt>
+<gambar3m.png, id=88, 1371.1225pt x 770.88pt>
 File: gambar3m.png Graphic file (type png)
 <use gambar3m.png>
-Package pdftex.def Info: gambar3m.png  used on input line 82.
+Package pdftex.def Info: gambar3m.png  used on input line 71.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<gambar4.png, id=65, 1371.1225pt x 770.88pt>
+<gambar4.png, id=89, 1371.1225pt x 770.88pt>
 File: gambar4.png Graphic file (type png)
 <use gambar4.png>
-Package pdftex.def Info: gambar4.png  used on input line 90.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-File: gambar5.png Graphic file (type png)
-<use gambar5.png>
-Package pdftex.def Info: gambar5.png  used on input line 98.
+Package pdftex.def Info: gambar4.png  used on input line 79.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
 
-[4 <./gambar3ma.png> <./gambar3m.png> <./gambar4.png>]
+[3 <./gambar3ma.png> <./gambar3m.png>]
 File: gambar5.png Graphic file (type png)
 <use gambar5.png>
-Package pdftex.def Info: gambar5.png  used on input line 106.
+Package pdftex.def Info: gambar5.png  used on input line 87.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<ping2.png, id=79, 1371.1225pt x 770.88pt>
+File: gambar5.png Graphic file (type png)
+<use gambar5.png>
+Package pdftex.def Info: gambar5.png  used on input line 95.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<ping2.png, id=103, 1371.1225pt x 770.88pt>
 File: ping2.png Graphic file (type png)
 <use ping2.png>
-Package pdftex.def Info: ping2.png  used on input line 114.
+Package pdftex.def Info: ping2.png  used on input line 103.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+
+
+[4 <./gambar4.png>]
 File: gambar1.png Graphic file (type png)
 <use gambar1.png>
-Package pdftex.def Info: gambar1.png  used on input line 127.
+Package pdftex.def Info: gambar1.png  used on input line 116.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+<gambar3w.png, id=115, 1371.1225pt x 770.88pt>
+File: gambar3w.png Graphic file (type png)
+<use gambar3w.png>
+Package pdftex.def Info: gambar3w.png  used on input line 127.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+File: gambar3m.png Graphic file (type png)
+<use gambar3m.png>
+Package pdftex.def Info: gambar3m.png  used on input line 135.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
 
-[5 <./ping2.png>]
-
-LaTeX Warning: File `gambar2w.png' not found on input line 135.
-
-
-P1/crimping.tex:135: Package pdftex.def Error: File `gambar2w.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...aphics[width=0.5\linewidth]{gambar2w.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `gambar3wa.png' not found on input line 143.
-
-
-P1/crimping.tex:143: Package pdftex.def Error: File `gambar3wa.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 ...phics[width=0.5\linewidth]{gambar3wa.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[5 <./ping2.png> <./gambar3w.png>]
+File: gambar4.png Graphic file (type png)
+<use gambar4.png>
+Package pdftex.def Info: gambar4.png  used on input line 143.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+File: gambar5.png Graphic file (type png)
+<use gambar5.png>
+Package pdftex.def Info: gambar5.png  used on input line 151.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+File: gambar5.png Graphic file (type png)
+<use gambar5.png>
+Package pdftex.def Info: gambar5.png  used on input line 159.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
 
 [6]
-<gambar3w.png, id=102, 1371.1225pt x 770.88pt>
-File: gambar3w.png Graphic file (type png)
-<use gambar3w.png>
-Package pdftex.def Info: gambar3w.png  used on input line 151.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-File: gambar4.png Graphic file (type png)
-<use gambar4.png>
-Package pdftex.def Info: gambar4.png  used on input line 159.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-File: gambar5.png Graphic file (type png)
-<use gambar5.png>
-Package pdftex.def Info: gambar5.png  used on input line 167.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-
-
-[7 <./gambar3w.png>]
-File: gambar5.png Graphic file (type png)
-<use gambar5.png>
-Package pdftex.def Info: gambar5.png  used on input line 175.
-(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
-<ping3.png, id=114, 1371.1225pt x 770.88pt>
+<ping3.png, id=141, 1371.1225pt x 770.88pt>
 File: ping3.png Graphic file (type png)
 <use ping3.png>
-Package pdftex.def Info: ping3.png  used on input line 183.
+Package pdftex.def Info: ping3.png  used on input line 167.
 (pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 
-Overfull \hbox (8.90282pt too wide) in paragraph at lines 196--203
+Overfull \hbox (8.90282pt too wide) in paragraph at lines 180--187
 \T1/qhv/m/n/10.95 SSID yang sama yaitu PointToPoint16. Setelah IP address dan routing statis dikonfigurasikan, dilakukan
  []
 
 
 
-[8 <./ping3.png>]
-Overfull \hbox (16.85893pt too wide) in paragraph at lines 226--234
+[7 <./ping3.png>]
+<topologi.png, id=150, 473.77pt x 427.5975pt>
+File: topologi.png Graphic file (type png)
+<use topologi.png>
+Package pdftex.def Info: topologi.png  used on input line 210.
+(pdftex.def)             Requested size: 241.84843pt x 218.2741pt.
+
+Overfull \hbox (11.85043pt too wide) in paragraph at lines 214--223
+\T1/qhv/m/n/10.95 Gedung Asrama. Gedung Pusat berfungsi sebagai inti jaringan, di mana sebuah router utama mengelola
+ []
+
+
+Overfull \hbox (0.91039pt too wide) in paragraph at lines 224--230
+\T1/qhv/m/n/10.95 Setelah menerima koneksi, router ini kemudian menyediakan jaringan lokal dengan alokasi IP otomatis
+ []
+
+
+Overfull \hbox (4.41696pt too wide) in paragraph at lines 224--230
+\T1/qhv/m/n/10.95 (DHCP) dan Wi-Fi melalui AP lokal masing-masing. Perangkat di Blok B dapat langsung berkomunikasi
+ []
+
+
+Overfull \hbox (16.85893pt too wide) in paragraph at lines 233--241
 \T1/qhv/m/n/10.95 untuk komunikasi dua perangkat secara langsung. Konfigurasi Point to Multipoint memberikan fleksibilitas
  []
 
 
-Overfull \hbox (22.1096pt too wide) in paragraph at lines 226--234
+Overfull \hbox (22.1096pt too wide) in paragraph at lines 233--241
 \T1/qhv/m/n/10.95 LAN secara virtual, namun memiliki keterbatasan dalam performa akibat penggunaan mode pseudobridge.
  []
 
+
+
+[8 <./topologi.png>]
+File: gambar5.png Graphic file (type png)
+<use gambar5.png>
+Package pdftex.def Info: gambar5.png  used on input line 246.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+File: gambar5.png Graphic file (type png)
+<use gambar5.png>
+Package pdftex.def Info: gambar5.png  used on input line 254.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
+File: ping3.png Graphic file (type png)
+<use ping3.png>
+Package pdftex.def Info: ping3.png  used on input line 262.
+(pdftex.def)             Requested size: 241.84843pt x 135.96466pt.
 )
-
-Package transparent Warning: Rerun to get transparencies right.
-
-
 
 [9] (LA.aux)
  ***********
@@ -988,40 +973,26 @@ L3 programming layer <2024-10-09>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `LA.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `LA.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  841AEB5D3FA6B86F99D56B5D01BC97D0;1365.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                LA
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `LA.out' has not changed.
+(rerunfilecheck)             Checksum: 841AEB5D3FA6B86F99D56B5D01BC97D0;1365.
 Package logreq Info: Writing requests to 'LA.run.xml'.
 \openout1 = `LA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21798 strings out of 475832
- 379379 string characters out of 5778116
- 1197386 words of memory out of 5000000
- 44100 multiletter control sequences out of 15000+600000
+ 21699 strings out of 475832
+ 377214 string characters out of 5778116
+ 1198970 words of memory out of 5000000
+ 43996 multiletter control sequences out of 15000+600000
  604398 words of font info for 64 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,12n,81p,1314b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,1314b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvbi.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb></home/goated/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on LA.pdf (10 pages, 3034844 bytes).
+Output written on LA.pdf (10 pages, 3051120 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber LA"] 0 "LA.bcf" "LA.bbl" "LA" 0 -1
-  "LA.bcf" 1748524518.033 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
+["biber LA"] 0 "LA.bcf" "LA.bbl" "LA" 1748838725.66229 -1
+  "LA.bcf" 1748838725.05969 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
   (generated)
   "LA.bbl"
   "LA.blg"
   (rewritten before read)
-["pdflatex"] 1748524510.71374 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p3/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1748524518.71795 2
+["pdflatex"] 1748838717.30636 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p3/Template Laporan Akhir/LA.tex" "LA.pdf" "LA" 1748838725.66364 0
   "/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1748089300.28742 71406 4284b1b624ae20f14ba94a6e78018db4 ""
   "/home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1730361539.65397 21972 952c8d76c531ff75ba53356297a826ce ""
   "/home/goated/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1730264024.76699 8731074 e2b8dffb6ce14f3489e45c6f5b54d9cc ""
@@ -136,27 +136,25 @@
   "Cover/img/footer.png" 1747830472.6202 28618 66808c84f12f49ce70f8339a56e26dcb ""
   "Cover/img/logodepart.png" 1747830472.6202 37002 e4a53892fe3eef46b801a8ae6ad8641f ""
   "Cover/img/miot.png" 1747830472.6202 13325 76cd49d8bc7145c419cc2de009c50447 ""
-  "LA.aux" 1748524518.021 7435 4d88f290498e7417557da35136681c9b "pdflatex"
+  "LA.aux" 1748838725.05069 7586 dc3db33826e9210ce077804f5add77fd "pdflatex"
   "LA.bbl" 1748521744.28659 0 d41d8cd98f00b204e9800998ecf8427e "biber LA"
-  "LA.out" 1748524518.028 1365 841aeb5d3fa6b86f99d56b5d01bc97d0 "pdflatex"
+  "LA.out" 1748838725.05669 1365 841aeb5d3fa6b86f99d56b5d01bc97d0 "pdflatex"
+  "LA.run.xml" 1748838725.06269 2276 7e7737baf1ca4036fb9a56342306cac1 "pdflatex"
   "LA.tex" 1748524508.13576 2737 1aafef255ff9339096e8d6ba070bf30d ""
-  "P1/crimping.tex" 1748524508.13776 10515 ec8106fd104c440e516fd8acf459c424 ""
+  "P1/crimping.tex" 1748838707.74743 11631 cc1771f029f6ff9a8b4e26666efa54c0 ""
   "gambar1.png" 1748524508.32575 508540 18f7f5c64da74621ad1a1fb395572aa2 ""
-  "gambar2.png" 0 -1 0 ""
-  "gambar2m.png" 0 -1 0 ""
-  "gambar2w.png" 0 -1 0 ""
   "gambar3.png" 1748524508.34575 547534 a4c2aeac32c96980fa42226252b3af73 ""
   "gambar3a.png" 1748524508.35275 155627 dbb4050fb78bc9d697513f995b96b01a ""
   "gambar3m.png" 1748524508.35975 175194 d6331dc96cfc81e94ea1f09e004621fb ""
   "gambar3ma.png" 1748524508.36675 161968 e79204ae095133528ec55d6585fb7769 ""
   "gambar3w.png" 1748524508.37275 155719 b8bd0a3b6c3e5d48a0341aec9516233c ""
-  "gambar3wa.png" 0 -1 0 ""
   "gambar4.png" 1748524508.38874 518151 a12550beaaf55042cab28af183f4f4d8 ""
   "gambar5.png" 1748524508.40774 514346 2591c301f0aa9ab52612e4c090201cc1 ""
   "miot.png" 1747830472.64221 13325 76cd49d8bc7145c419cc2de009c50447 ""
   "ping1.png" 1748524508.42174 163133 0570f38e6f4904eaeb8c8cf43ed3342e ""
   "ping2.png" 1748524508.42774 161839 d4cdd146f953e2cabdfdc9ee49a4b1e7 ""
   "ping3.png" 1748524508.43474 154338 2201b785975771f6fa8156fb23753a1f ""
+  "topologi.png" 1748837753.00897 20235 e73f41c5c2e7dc9bae71988890f8f424 ""
   (generated)
   "LA.aux"
   "LA.bcf"
