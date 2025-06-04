@@ -1,11 +1,11 @@
 # Fdb version 4
 ["biber LS"] 0 "LS.bcf" "LS.bbl" "LS" 0 -1
-  "LS.bcf" 1749005595.93813 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
+  "LS.bcf" 1749006849.59216 107438 de200c6f14820d1c3c066ecaf56bf23c "pdflatex"
   (generated)
   "LS.bbl"
   "LS.blg"
   (rewritten before read)
-["pdflatex"] 1749005592.34941 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p5/Template Laporan Sementara/LS.tex" "LS.pdf" "LS" 1749005596.45731 2
+["pdflatex"] 1749006845.82405 "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p5/Template Laporan Sementara/LS.tex" "LS.pdf" "LS" 1749006850.13592 2
   "/home/goated/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1748089300.28742 71406 4284b1b624ae20f14ba94a6e78018db4 ""
   "/home/goated/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1730361539.65397 21972 952c8d76c531ff75ba53356297a826ce ""
   "/home/goated/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1730264024.76699 8731074 e2b8dffb6ce14f3489e45c6f5b54d9cc ""
@@ -133,17 +133,17 @@
   "/home/goated/.miktex/texmfs/install/tex/latex/transparent/transparent.sty" 1746493882.47783 1918 c8d1ecb3722721d6f624992cbc042b70 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/url/url.sty" 1730264196.64299 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/home/goated/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1730264093.11999 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p5/Template Laporan Sementara/LS.tex" 1748911052.30733 2726 6920e30f1c22984f733ec8969ca00b24 ""
-  "Cover/Header.tex" 1746447308 815 d1ecf0084ecebe6fef3cd4325a2a8258 ""
-  "Cover/img/footer.png" 1746447308 28618 66808c84f12f49ce70f8339a56e26dcb ""
-  "Cover/img/logodepart.png" 1746447308 37002 e4a53892fe3eef46b801a8ae6ad8641f ""
-  "Cover/img/miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
-  "LS.aux" 1749005595.92913 935 5378d8e6ab13efcdc28ee52ae24025bb "pdflatex"
-  "LS.bbl" 1748911080.33281 0 d41d8cd98f00b204e9800998ecf8427e "biber LS"
-  "LS.out" 1749005595.93313 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
-  "LS.tex" 1748911052.30733 2726 6920e30f1c22984f733ec8969ca00b24 ""
-  "P1/crimping.tex" 1749005587.03881 7663 2939d467062eec6096fae4de702fb1e1 ""
-  "miot.png" 1746447308 13325 76cd49d8bc7145c419cc2de009c50447 ""
+  "/home/goated/Documents/Praktikum_Jarkom/Praktikum_Jarkom/AkhmadRizqullahRidlohi_5024231037/p5/Template Laporan Sementara/LS.tex" 1749005647.08716 2726 6920e30f1c22984f733ec8969ca00b24 ""
+  "Cover/Header.tex" 1749005647.00716 815 d1ecf0084ecebe6fef3cd4325a2a8258 ""
+  "Cover/img/footer.png" 1749005647.00716 28618 66808c84f12f49ce70f8339a56e26dcb ""
+  "Cover/img/logodepart.png" 1749005647.00816 37002 e4a53892fe3eef46b801a8ae6ad8641f ""
+  "Cover/img/miot.png" 1749005647.00916 13325 76cd49d8bc7145c419cc2de009c50447 ""
+  "LS.aux" 1749006849.58116 935 5378d8e6ab13efcdc28ee52ae24025bb "pdflatex"
+  "LS.bbl" 1749005647.00916 0 d41d8cd98f00b204e9800998ecf8427e "biber LS"
+  "LS.out" 1749006849.58616 474 f646f2247e20b5f6ef92810bdd37164f "pdflatex"
+  "LS.tex" 1749005647.08716 2726 6920e30f1c22984f733ec8969ca00b24 ""
+  "P1/crimping.tex" 1749006839.25447 7667 3014e23943194a9d300c389008fae99b ""
+  "miot.png" 1749005647.09716 13325 76cd49d8bc7145c419cc2de009c50447 ""
   (generated)
   "LS.aux"
   "LS.bcf"
