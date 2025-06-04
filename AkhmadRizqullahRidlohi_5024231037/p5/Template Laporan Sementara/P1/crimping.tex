@@ -55,21 +55,19 @@ Bagian ini berisi jawaban dari tugas pendahuluan yang telah anda kerjakan, beser
 	membentuk Secure Association (SA) awal menggunakan algoritma kriptografi yang disepakati. Fase 
 	ini bertujuan untuk mengaeutentikasi identitas masing-masing pihak dan membuat tunnel aman untuk 
 	pertukaran kunci. Parameter penting dalam fase ini mencakup algoritma enkripsi seperti AES-256, 
-	metode autentikasi seperti pre-shared key (PSK) atau digital certificate, serta lifetime key, 
-	misalnya 86400 detik (1 hari).
+	metode autentikasi seperti pre-shared key (PSK).
 
 	Selanjutnya, \textbf{IKE Phase 2} digunakan untuk membuat SA kedua yang akan digunakan untuk 
 	enkripsi dan dekripsi data aktual. Dalam fase ini, protokol ESP (Encapsulation Security Payload) 
-	biasanya digunakan, dengan parameter keamanan seperti algoritma enkripsi (misalnya AES-128), 
-	algoritma hashing (SHA-256), dan parameter lifetime yang lebih pendek, seperti 3600 detik (1 jam), 
-	untuk meningkatkan keamanan. Kedua fase ini saling bergantung dan harus disesuaikan pada kedua 
+	biasanya digunakan, dengan parameter keamanan seperti algoritma enkripsi (misalnya AES-128), dan
+	algoritma hashing (SHA-256), Kedua fase ini saling bergantung dan harus disesuaikan pada kedua 
 	perangkat yang terlibat.
 
 	Untuk konfigurasi sederhana pada router MikroTik untuk IPSec site-to-site, langkah-langkah 
 	umum adalah sebagai berikut:
 
 	\begin{itemize}
-		\item Konfigurasi Phase 1 (Proposal, Policy, dan Peer): 
+		\item Konfigurasi Phase 1: 
 		\begin{verbatim}
 		/ip ipsec proposal
 		add name=ph1-proposal auth-algorithms=sha256 enc-algorithms=aes-256-cbc lifetime=1d
@@ -78,7 +76,7 @@ Bagian ini berisi jawaban dari tugas pendahuluan yang telah anda kerjakan, beser
 		add address=REMOTE_IP exchange-mode=main secret=SharedKey name=branch-peer
 		\end{verbatim}
 		
-		\item Konfigurasi Phase 2 (Policy):
+		\item Konfigurasi Phase 2:
 		\begin{verbatim}
 		/ip ipsec policy
 		add src-address=192.168.1.0/24 dst-address=192.168.2.0/24 \
